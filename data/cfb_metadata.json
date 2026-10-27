@@ -1,0 +1,9 @@
+{
+  "season": 2026,
+  "completed_games_with_verified_plays": 565,
+  "excluded_games_missing_plays": 0,
+  "upcoming_projected_games": 317,
+  "method": "Blend offensive points/play and opposing defensive points allowed/play; multiply by offensive plays/game",
+  "source": "ESPN public college football scoreboard and game summary",
+  "generated_at": "2026-10-27T22:10:45.430408+00:00"
+}

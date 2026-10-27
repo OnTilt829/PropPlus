@@ -1,0 +1,318 @@
+DATE,AWAY,HOME,AWAY_PROJ,HOME_PROJ,PROJECTED_TOTAL,AWAY_GP,HOME_GP
+2026-10-27,Delaware Blue Hens,Western Kentucky Hilltoppers,30.4,25.8,56.3,7,7
+2026-10-28,Sam Houston Bearkats,Missouri State Bears,25.5,24.3,49.9,7,7
+2026-10-28,Kennesaw State Owls,Middle Tennessee Blue Raiders,24.3,22.8,47.1,7,7
+2026-10-29,Jacksonville State Gamecocks,New Mexico State Aggies,25.7,23.6,49.3,7,7
+2026-10-29,Florida Atlantic Owls,North Texas Mean Green,36.3,40.0,76.3,7,7
+2026-10-29,Troy Trojans,James Madison Dukes,20.4,34.6,54.9,7,8
+2026-10-30,Tulane Green Wave,Charlotte 49ers,27.4,19.6,47.0,7,7
+2026-10-30,Baylor Bears,UCF Knights,27.7,23.4,51.1,7,7
+2026-10-31,Kent State Golden Flashes,Sacramento State Hornets,24.4,23.5,47.9,8,8
+2026-10-31,Notre Dame Fighting Irish,Navy Midshipmen,36.8,23.0,59.8,7,7
+2026-10-31,Arizona Wildcats,Texas Tech Red Raiders,27.9,26.5,54.4,7,7
+2026-10-31,SMU Mustangs,Syracuse Orange,32.6,29.6,62.2,7,7
+2026-10-31,Wisconsin Badgers,Iowa Hawkeyes,20.1,21.1,41.1,7,7
+2026-10-31,California Golden Bears,NC State Wolfpack,27.8,33.0,60.8,8,7
+2026-10-31,Boston College Eagles,Duke Blue Devils,20.6,27.1,47.7,7,7
+2026-10-31,Illinois Fighting Illini,Maryland Terrapins,30.8,27.2,58.0,7,7
+2026-10-31,UAB Blazers,South Florida Bulls,19.6,24.7,44.3,7,7
+2026-10-31,Bowling Green Falcons,Western Michigan Broncos,17.9,27.9,45.8,8,8
+2026-10-31,Michigan Wolverines,Rutgers Scarlet Knights,26.3,23.0,49.2,7,7
+2026-10-31,Auburn Tigers,Ole Miss Rebels,25.3,29.4,54.7,7,7
+2026-10-31,Marshall Thundering Herd,Old Dominion Monarchs,23.8,21.8,45.7,7,8
+2026-10-31,Kansas State Wildcats,Colorado Buffaloes,31.4,22.3,53.7,7,7
+2026-10-31,Coastal Carolina Chanticleers,Georgia State Panthers,26.6,31.1,57.7,7,7
+2026-10-31,UConn Huskies,Air Force Falcons,30.9,26.4,57.3,7,7
+2026-10-31,Temple Owls,East Carolina Pirates,23.6,26.8,50.5,7,7
+2026-10-31,Louisiana Tech Bulldogs,South Alabama Jaguars,34.4,29.3,63.6,7,7
+2026-10-31,Stanford Cardinal,Louisville Cardinals,21.9,35.7,57.6,8,7
+2026-10-31,Florida Gators,Georgia Bulldogs,28.6,34.4,63.1,7,7
+2026-10-31,Minnesota Golden Gophers,Indiana Hoosiers,19.2,27.0,46.2,7,8
+2026-10-31,Arizona State Sun Devils,BYU Cougars,25.2,30.5,55.7,7,7
+2026-10-31,Northwestern Wildcats,Oregon Ducks,27.5,25.1,52.6,7,7
+2026-10-31,Kansas Jayhawks,TCU Horned Frogs,23.7,24.4,48.2,7,7
+2026-10-31,Colorado State Rams,Utah State Aggies,30.6,28.5,59.1,7,7
+2026-10-31,UTEP Miners,North Dakota State Bison,13.9,33.0,46.9,7,8
+2026-10-31,Florida International Panthers,Liberty Flames,18.0,24.4,42.4,7,7
+2026-10-31,Southern Miss Golden Eagles,UL Monroe Warhawks,31.6,23.9,55.5,7,7
+2026-10-31,Utah Utes,Cincinnati Bearcats,31.7,25.4,57.1,7,7
+2026-10-31,Virginia Cavaliers,Wake Forest Demon Deacons,23.5,28.8,52.3,8,7
+2026-10-31,New Mexico Lobos,San José State Spartans,28.3,16.4,44.8,7,8
+2026-10-31,Nevada Wolf Pack,UCLA Bruins,21.2,28.5,49.6,7,7
+2026-10-31,South Carolina Gamecocks,Oklahoma Sooners,29.0,23.2,52.2,7,7
+2026-10-31,Purdue Boilermakers,Penn State Nittany Lions,26.4,31.9,58.2,7,7
+2026-10-31,App State Mountaineers,Georgia Southern Eagles,27.6,23.5,51.1,7,7
+2026-10-31,Oklahoma State Cowboys,Iowa State Cyclones,34.0,23.8,57.8,7,7
+2026-10-31,Clemson Tigers,Florida State Seminoles,24.7,26.2,50.8,7,7
+2026-10-31,Washington State Cougars,San Diego State Aztecs,24.4,26.4,50.9,8,8
+2026-10-31,Miami Hurricanes,North Carolina Tar Heels,34.4,19.7,54.1,7,7
+2026-10-31,Ohio State Buckeyes,USC Trojans,34.3,23.9,58.1,7,8
+2026-10-31,Mississippi State Bulldogs,Texas Longhorns,24.8,28.8,53.6,7,7
+2026-10-31,Georgia Tech Yellow Jackets,Pittsburgh Panthers,23.7,31.4,55.1,7,8
+2026-10-31,Missouri Tigers,Arkansas Razorbacks,31.0,20.5,51.5,7,7
+2026-11-01,Washington Huskies,Nebraska Cornhuskers,22.3,30.6,52.9,7,7
+2026-11-01,Army Black Knights,Memphis Tigers,29.6,31.6,61.2,7,8
+2026-11-01,Texas State Bobcats,Boise State Broncos,32.4,31.5,63.8,7,7
+2026-11-01,Northern Illinois Huskies,UNLV Rebels,18.3,31.3,49.7,7,7
+2026-11-01,Oregon State Beavers,Fresno State Bulldogs,32.6,24.3,56.9,7,7
+2026-11-04,Ohio Bobcats,Akron Zips,31.4,21.1,52.5,8,8
+2026-11-04,Buffalo Bulls,Miami (OH) RedHawks,26.0,24.7,50.7,8,8
+2026-11-05,Ball State Cardinals,Massachusetts Minutemen,21.1,29.0,50.2,8,8
+2026-11-05,Toledo Rockets,Sacramento State Hornets,37.8,19.4,57.2,8,8
+2026-11-05,Central Michigan Chippewas,Eastern Michigan Eagles,21.3,24.1,45.4,8,9
+2026-11-06,UTSA Roadrunners,Florida Atlantic Owls,34.0,33.8,67.8,7,7
+2026-11-06,James Madison Dukes,Southern Miss Golden Eagles,35.5,21.9,57.4,8,7
+2026-11-07,Virginia Tech Hokies,SMU Mustangs,29.8,29.8,59.6,8,7
+2026-11-07,South Florida Bulls,East Carolina Pirates,24.2,20.4,44.6,7,7
+2026-11-07,Nebraska Cornhuskers,Illinois Fighting Illini,31.6,23.1,54.8,7,7
+2026-11-07,New Mexico Lobos,Nevada Wolf Pack,28.8,19.4,48.2,7,7
+2026-11-07,TCU Horned Frogs,Arizona Wildcats,20.3,25.8,46.1,7,7
+2026-11-07,UCLA Bruins,Minnesota Golden Gophers,29.0,21.0,50.0,7,7
+2026-11-07,West Virginia Mountaineers,Texas Tech Red Raiders,28.8,33.9,62.6,8,7
+2026-11-07,Cincinnati Bearcats,Houston Cougars,29.4,31.0,60.4,7,8
+2026-11-07,Iowa Hawkeyes,Northwestern Wildcats,21.5,24.5,46.0,7,7
+2026-11-07,Oklahoma State Cowboys,Kansas State Wildcats,32.7,29.0,61.7,7,7
+2026-11-07,UCF Knights,Kansas Jayhawks,28.3,27.4,55.7,7,7
+2026-11-07,Iowa State Cyclones,Baylor Bears,19.7,30.0,49.7,7,7
+2026-11-07,Michigan State Spartans,Michigan Wolverines,18.0,22.3,40.3,8,7
+2026-11-07,Penn State Nittany Lions,Washington Huskies,26.2,24.0,50.2,7,7
+2026-11-07,BYU Cougars,Utah Utes,23.8,28.7,52.5,7,7
+2026-11-07,Texas Longhorns,Missouri Tigers,25.2,25.2,50.4,7,7
+2026-11-07,Clemson Tigers,Syracuse Orange,25.1,28.9,54.0,7,7
+2026-11-07,Florida State Seminoles,Boston College Eagles,27.4,25.3,52.7,7,7
+2026-11-07,North Carolina Tar Heels,UConn Huskies,22.1,27.1,49.2,7,7
+2026-11-07,Tulsa Golden Hurricane,Tulane Green Wave,26.3,20.1,46.4,8,7
+2026-11-07,Rutgers Scarlet Knights,Wisconsin Badgers,21.9,29.3,51.2,7,7
+2026-11-07,Duke Blue Devils,NC State Wolfpack,30.4,25.3,55.7,7,7
+2026-11-07,Maryland Terrapins,Purdue Boilermakers,32.1,33.2,65.2,7,7
+2026-11-07,Arkansas Razorbacks,Auburn Tigers,21.7,28.4,50.1,7,7
+2026-11-07,Old Dominion Monarchs,Coastal Carolina Chanticleers,19.7,25.2,44.9,8,7
+2026-11-07,Georgia State Panthers,App State Mountaineers,29.2,29.7,58.9,7,7
+2026-11-07,Texas A&M Aggies,South Carolina Gamecocks,27.4,29.9,57.3,8,7
+2026-11-07,UL Monroe Warhawks,Arkansas State Red Wolves,24.3,31.1,55.4,7,8
+2026-11-07,Delaware Blue Hens,Kennesaw State Owls,26.8,23.8,50.5,7,7
+2026-11-07,Oregon Ducks,Ohio State Buckeyes,24.1,30.6,54.7,7,7
+2026-11-07,Alabama Crimson Tide,LSU Tigers,27.4,33.4,60.8,8,8
+2026-11-07,Charlotte 49ers,UAB Blazers,20.7,30.9,51.6,7,7
+2026-11-07,Temple Owls,Navy Midshipmen,26.8,29.0,55.8,7,7
+2026-11-07,Marshall Thundering Herd,Georgia Southern Eagles,23.3,27.8,51.1,7,7
+2026-11-07,Western Kentucky Hilltoppers,Middle Tennessee Blue Raiders,26.4,26.0,52.4,7,7
+2026-11-07,Rice Owls,North Texas Mean Green,24.8,37.9,62.7,8,7
+2026-11-07,Northern Illinois Huskies,San José State Spartans,17.1,29.1,46.2,7,8
+2026-11-07,Missouri State Bears,Florida International Panthers,20.8,26.9,47.7,7,7
+2026-11-07,Louisiana Tech Bulldogs,Troy Trojans,29.7,22.7,52.4,7,7
+2026-11-07,Vanderbilt Commodores,Mississippi State Bulldogs,24.0,31.2,55.2,8,7
+2026-11-07,South Alabama Jaguars,Louisiana Ragin' Cajuns,29.8,33.4,63.2,7,8
+2026-11-07,Boise State Broncos,Colorado State Rams,40.4,31.7,72.1,7,7
+2026-11-07,Kentucky Wildcats,Tennessee Volunteers,24.9,28.5,53.4,8,8
+2026-11-08,Sam Houston Bearkats,Jacksonville State Gamecocks,21.1,25.4,46.5,7,7
+2026-11-08,Miami Hurricanes,Notre Dame Fighting Irish,33.1,29.2,62.3,7,7
+2026-11-08,Georgia Bulldogs,Ole Miss Rebels,32.5,26.7,59.2,7,7
+2026-11-08,Colorado Buffaloes,Arizona State Sun Devils,25.5,29.8,55.3,7,7
+2026-11-08,Louisville Cardinals,Georgia Tech Yellow Jackets,33.4,24.7,58.1,7,7
+2026-11-08,Air Force Falcons,Army Black Knights,28.1,30.6,58.7,7,7
+2026-11-08,Oklahoma Sooners,Florida Gators,24.3,30.7,55.0,7,7
+2026-11-08,Liberty Flames,New Mexico State Aggies,28.2,19.7,48.0,7,7
+2026-11-08,Fresno State Bulldogs,Utah State Aggies,23.8,17.3,41.2,7,7
+2026-11-08,Hawai'i Rainbow Warriors,UTEP Miners,31.3,19.3,50.6,8,7
+2026-11-08,Texas State Bobcats,Oregon State Beavers,31.7,36.1,67.8,7,7
+2026-11-08,Wyoming Cowboys,UNLV Rebels,19.9,21.8,41.7,8,7
+2026-11-11,Western Michigan Broncos,Akron Zips,29.2,19.1,48.3,8,8
+2026-11-11,Kent State Golden Flashes,Bowling Green Falcons,22.7,23.8,46.5,8,8
+2026-11-11,Ohio Bobcats,Miami (OH) RedHawks,27.4,23.8,51.2,8,8
+2026-11-11,Buffalo Bulls,Ball State Cardinals,30.9,23.4,54.3,8,8
+2026-11-11,Sacramento State Hornets,Central Michigan Chippewas,20.5,25.0,45.6,8,8
+2026-11-11,Massachusetts Minutemen,Toledo Rockets,24.0,29.9,53.9,8,8
+2026-11-13,Memphis Tigers,South Florida Bulls,26.4,24.2,50.6,8,7
+2026-11-13,Louisiana Ragin' Cajuns,UL Monroe Warhawks,33.3,21.0,54.3,8,7
+2026-11-14,Florida State Seminoles,Pittsburgh Panthers,26.5,30.1,56.6,7,8
+2026-11-14,Illinois Fighting Illini,UCLA Bruins,22.7,30.5,53.2,7,7
+2026-11-14,Houston Cougars,Colorado Buffaloes,32.8,22.3,55.2,8,7
+2026-11-14,Duke Blue Devils,Miami Hurricanes,23.5,33.7,57.1,7,7
+2026-11-14,Northwestern Wildcats,Ohio State Buckeyes,24.2,27.9,52.1,7,7
+2026-11-14,Missouri Tigers,Georgia Bulldogs,24.1,30.4,54.5,7,7
+2026-11-14,USC Trojans,Indiana Hoosiers,22.9,29.5,52.5,8,8
+2026-11-14,Utah Utes,Arizona Wildcats,27.5,25.9,53.4,7,7
+2026-11-14,Baylor Bears,BYU Cougars,25.9,23.5,49.4,7,7
+2026-11-14,Florida Gators,Kentucky Wildcats,32.5,30.0,62.5,7,8
+2026-11-14,Alabama Crimson Tide,Vanderbilt Commodores,33.7,21.9,55.7,8,8
+2026-11-14,Texas Longhorns,LSU Tigers,24.3,31.2,55.5,7,8
+2026-11-14,Ole Miss Rebels,Oklahoma Sooners,28.8,22.3,51.0,7,7
+2026-11-14,Texas Tech Red Raiders,Oklahoma State Cowboys,30.0,30.4,60.5,7,7
+2026-11-14,Wake Forest Demon Deacons,SMU Mustangs,29.8,27.7,57.5,7,7
+2026-11-14,Tennessee Volunteers,Texas A&M Aggies,27.7,23.1,50.8,8,8
+2026-11-14,Wisconsin Badgers,Maryland Terrapins,28.4,21.8,50.3,7,7
+2026-11-14,Arizona State Sun Devils,UCF Knights,26.7,30.5,57.2,7,7
+2026-11-14,Cincinnati Bearcats,Iowa State Cyclones,30.6,24.3,54.9,7,7
+2026-11-14,Kansas Jayhawks,West Virginia Mountaineers,32.4,31.9,64.2,7,8
+2026-11-14,Kansas State Wildcats,TCU Horned Frogs,24.6,23.7,48.2,7,7
+2026-11-14,South Carolina Gamecocks,Arkansas Razorbacks,34.1,23.9,58.0,7,7
+2026-11-14,Auburn Tigers,Mississippi State Bulldogs,26.7,26.3,53.0,7,7
+2026-11-14,California Golden Bears,Virginia Cavaliers,22.5,30.5,53.1,8,8
+2026-11-14,Georgia Tech Yellow Jackets,Clemson Tigers,23.4,26.0,49.3,7,7
+2026-11-14,Louisville Cardinals,North Carolina Tar Heels,28.3,23.0,51.3,7,7
+2026-11-14,Stanford Cardinal,Virginia Tech Hokies,21.0,36.2,57.1,8,8
+2026-11-14,Syracuse Orange,NC State Wolfpack,34.4,30.8,65.2,7,7
+2026-11-14,Purdue Boilermakers,Iowa Hawkeyes,23.4,30.4,53.8,7,7
+2026-11-14,Washington Huskies,Michigan State Spartans,27.0,21.2,48.1,7,8
+2026-11-14,Michigan Wolverines,Oregon Ducks,19.7,25.7,45.4,7,7
+2026-11-14,Minnesota Golden Gophers,Penn State Nittany Lions,23.1,25.7,48.8,7,7
+2026-11-14,Nebraska Cornhuskers,Rutgers Scarlet Knights,37.2,23.0,60.2,7,7
+2026-11-14,East Carolina Pirates,Charlotte 49ers,31.8,20.2,52.0,7,7
+2026-11-14,Florida Atlantic Owls,Tulsa Golden Hurricane,31.4,32.2,63.5,7,8
+2026-11-14,North Texas Mean Green,UTSA Roadrunners,35.5,31.7,67.2,7,7
+2026-11-14,Tulane Green Wave,Rice Owls,24.2,21.3,45.5,7,8
+2026-11-14,UAB Blazers,Temple Owls,25.9,24.2,50.1,7,7
+2026-11-14,Nevada Wolf Pack,Northern Illinois Huskies,32.1,17.5,49.6,7,7
+2026-11-14,Wyoming Cowboys,UTEP Miners,26.7,16.1,42.8,8,7
+2026-11-14,App State Mountaineers,Marshall Thundering Herd,31.0,22.4,53.4,7,7
+2026-11-14,Arkansas State Red Wolves,Coastal Carolina Chanticleers,26.4,27.4,53.8,8,7
+2026-11-14,Georgia Southern Eagles,Georgia State Panthers,26.5,30.1,56.6,7,7
+2026-11-14,Southern Miss Golden Eagles,Louisiana Tech Bulldogs,24.2,30.6,54.9,7,7
+2026-11-14,Troy Trojans,South Alabama Jaguars,30.2,32.0,62.1,7,7
+2026-11-14,James Madison Dukes,UConn Huskies,32.2,26.3,58.5,8,7
+2026-11-14,Kennesaw State Owls,Sam Houston Bearkats,22.6,22.2,44.8,7,7
+2026-11-14,New Mexico State Aggies,Missouri State Bears,28.1,24.6,52.7,7,7
+2026-11-14,Florida International Panthers,Delaware Blue Hens,24.7,23.1,47.8,7,7
+2026-11-14,Boston College Eagles,Notre Dame Fighting Irish,20.2,32.8,53.0,7,7
+2026-11-14,Jacksonville State Gamecocks,Western Kentucky Hilltoppers,28.8,23.2,51.9,7,7
+2026-11-14,Middle Tennessee Blue Raiders,Liberty Flames,18.3,29.7,48.0,7,7
+2026-11-14,Fresno State Bulldogs,Texas State Bobcats,26.3,30.5,56.8,7,7
+2026-11-14,Oregon State Beavers,Boise State Broncos,34.3,29.2,63.5,7,7
+2026-11-15,San José State Spartans,Air Force Falcons,23.2,25.5,48.7,8,7
+2026-11-15,UNLV Rebels,New Mexico Lobos,18.4,29.7,48.1,7,7
+2026-11-15,Utah State Aggies,San Diego State Aztecs,22.1,23.5,45.5,7,8
+2026-11-15,Colorado State Rams,Washington State Cougars,33.9,31.1,65.0,7,8
+2026-11-15,North Dakota State Bison,Hawai'i Rainbow Warriors,26.8,18.1,44.9,8,8
+2026-11-18,Ball State Cardinals,Ohio Bobcats,22.4,31.6,54.0,8,8
+2026-11-18,Eastern Michigan Eagles,Western Michigan Broncos,20.5,25.7,46.1,9,8
+2026-11-18,Miami (OH) RedHawks,Kent State Golden Flashes,27.8,20.1,47.9,8,8
+2026-11-18,Akron Zips,Massachusetts Minutemen,19.8,28.8,48.7,8,8
+2026-11-18,Central Michigan Chippewas,Buffalo Bulls,20.5,26.0,46.5,8,8
+2026-11-20,Rice Owls,Temple Owls,23.7,26.5,50.3,8,7
+2026-11-20,Iowa State Cyclones,UCF Knights,23.0,28.8,51.8,7,7
+2026-11-21,Clemson Tigers,Duke Blue Devils,19.7,25.8,45.5,7,7
+2026-11-21,Bowling Green Falcons,Toledo Rockets,20.1,35.9,56.0,8,8
+2026-11-21,Oregon Ducks,Michigan State Spartans,30.9,20.0,50.8,7,8
+2026-11-21,UTEP Miners,Air Force Falcons,19.3,35.6,54.9,7,7
+2026-11-21,Virginia Tech Hokies,Miami Hurricanes,26.6,36.4,63.0,8,7
+2026-11-21,Ohio State Buckeyes,Nebraska Cornhuskers,28.5,25.5,54.0,7,7
+2026-11-21,Georgia Bulldogs,South Carolina Gamecocks,33.4,26.9,60.3,7,7
+2026-11-21,Indiana Hoosiers,Washington Huskies,27.5,20.0,47.4,8,7
+2026-11-21,Utah Utes,TCU Horned Frogs,26.7,19.6,46.3,7,7
+2026-11-21,UCLA Bruins,Michigan Wolverines,26.1,17.5,43.6,7,7
+2026-11-21,BYU Cougars,Kansas Jayhawks,28.3,25.8,54.0,7,7
+2026-11-21,Kentucky Wildcats,Missouri Tigers,25.8,27.8,53.5,8,7
+2026-11-21,Arkansas Razorbacks,Texas Longhorns,20.2,30.5,50.7,7,7
+2026-11-21,Texas Tech Red Raiders,Baylor Bears,25.4,26.1,51.5,7,7
+2026-11-21,Wake Forest Demon Deacons,Georgia Tech Yellow Jackets,33.2,21.9,55.1,7,7
+2026-11-21,LSU Tigers,Tennessee Volunteers,30.5,25.4,55.9,8,8
+2026-11-21,Vanderbilt Commodores,Florida Gators,24.7,36.4,61.1,8,7
+2026-11-21,Houston Cougars,West Virginia Mountaineers,34.5,31.1,65.5,8,8
+2026-11-21,Northwestern Wildcats,Minnesota Golden Gophers,28.2,20.8,49.0,7,7
+2026-11-21,Arizona Wildcats,Kansas State Wildcats,29.9,25.4,55.3,7,7
+2026-11-21,Oklahoma State Cowboys,Arizona State Sun Devils,36.0,27.5,63.5,7,7
+2026-11-21,Wisconsin Badgers,Purdue Boilermakers,29.0,23.4,52.4,7,7
+2026-11-21,Texas A&M Aggies,Oklahoma Sooners,24.6,21.3,45.9,8,7
+2026-11-21,Colorado Buffaloes,Cincinnati Bearcats,23.0,31.7,54.7,7,7
+2026-11-21,NC State Wolfpack,Florida State Seminoles,30.4,30.6,60.9,7,7
+2026-11-21,North Carolina Tar Heels,Virginia Cavaliers,21.4,23.7,45.1,7,8
+2026-11-21,Pittsburgh Panthers,Louisville Cardinals,28.6,29.9,58.5,8,7
+2026-11-21,Stanford Cardinal,California Golden Bears,25.7,29.8,55.5,8,8
+2026-11-21,Syracuse Orange,Boston College Eagles,30.4,25.7,56.1,7,7
+2026-11-21,Iowa Hawkeyes,Illinois Fighting Illini,26.0,22.0,48.1,7,7
+2026-11-21,Rutgers Scarlet Knights,Penn State Nittany Lions,24.8,32.2,57.0,7,7
+2026-11-21,Maryland Terrapins,USC Trojans,28.6,34.2,62.8,7,8
+2026-11-21,Charlotte 49ers,Tulsa Golden Hurricane,19.2,33.7,52.9,7,8
+2026-11-21,South Florida Bulls,Florida Atlantic Owls,28.9,27.7,56.6,7,7
+2026-11-21,North Texas Mean Green,Tulane Green Wave,33.8,24.0,57.8,7,7
+2026-11-21,UTSA Roadrunners,UAB Blazers,29.1,24.9,54.1,7,7
+2026-11-21,Hawai'i Rainbow Warriors,Nevada Wolf Pack,22.0,26.1,48.1,8,7
+2026-11-21,UL Monroe Warhawks,App State Mountaineers,20.7,33.8,54.5,7,7
+2026-11-21,Arkansas State Red Wolves,Louisiana Tech Bulldogs,24.5,31.1,55.6,8,7
+2026-11-21,Coastal Carolina Chanticleers,Louisiana Ragin' Cajuns,24.1,28.2,52.3,7,8
+2026-11-21,Georgia Southern Eagles,Troy Trojans,25.9,23.9,49.8,7,7
+2026-11-21,Georgia State Panthers,Marshall Thundering Herd,33.4,25.4,58.8,7,7
+2026-11-21,South Alabama Jaguars,Southern Miss Golden Eagles,33.0,31.7,64.7,7,7
+2026-11-21,East Carolina Pirates,Army Black Knights,25.3,29.6,54.9,7,7
+2026-11-21,Memphis Tigers,Navy Midshipmen,34.9,27.0,61.9,8,7
+2026-11-21,Western Kentucky Hilltoppers,Liberty Flames,18.9,31.4,50.3,7,7
+2026-11-21,Missouri State Bears,Jacksonville State Gamecocks,23.2,28.6,51.8,7,7
+2026-11-21,Middle Tennessee Blue Raiders,Sam Houston Bearkats,22.8,24.0,46.8,7,7
+2026-11-21,Delaware Blue Hens,New Mexico State Aggies,27.1,26.0,53.1,7,7
+2026-11-21,Florida International Panthers,Kennesaw State Owls,23.3,18.9,42.2,7,7
+2026-11-21,Old Dominion Monarchs,UConn Huskies,18.1,30.1,48.1,8,7
+2026-11-21,Northern Illinois Huskies,North Dakota State Bison,14.2,32.7,46.8,7,8
+2026-11-21,Washington State Cougars,Texas State Bobcats,22.7,34.8,57.5,8,7
+2026-11-22,UNLV Rebels,San José State Spartans,22.4,21.7,44.1,7,8
+2026-11-22,SMU Mustangs,Notre Dame Fighting Irish,26.7,32.2,58.9,7,7
+2026-11-22,Colorado State Rams,Fresno State Bulldogs,30.1,34.2,64.2,7,7
+2026-11-22,New Mexico Lobos,Wyoming Cowboys,27.7,15.2,43.0,7,8
+2026-11-22,San Diego State Aztecs,Boise State Broncos,24.5,33.3,57.8,8,7
+2026-11-22,Utah State Aggies,Oregon State Beavers,18.3,33.2,51.5,7,7
+2026-11-24,Miami (OH) RedHawks,Western Michigan Broncos,22.0,25.4,47.4,8,8
+2026-11-25,Kent State Golden Flashes,Eastern Michigan Eagles,20.4,27.2,47.6,8,9
+2026-11-27,TCU Horned Frogs,Texas Tech Red Raiders,21.6,25.7,47.3,7,7
+2026-11-27,Florida Atlantic Owls,East Carolina Pirates,32.7,30.2,62.9,7,7
+2026-11-27,Temple Owls,Memphis Tigers,23.6,33.2,56.8,7,8
+2026-11-27,Tulane Green Wave,South Florida Bulls,17.2,23.6,40.9,7,7
+2026-11-27,Mississippi State Bulldogs,Ole Miss Rebels,27.5,32.0,59.6,7,7
+2026-11-27,Nebraska Cornhuskers,Iowa Hawkeyes,25.9,22.1,47.9,7,7
+2026-11-27,Buffalo Bulls,Akron Zips,30.6,22.2,52.8,8,8
+2026-11-27,Toledo Rockets,Ohio Bobcats,31.2,26.3,57.5,8,8
+2026-11-27,App State Mountaineers,South Alabama Jaguars,33.9,29.5,63.4,7,7
+2026-11-27,Florida Gators,Florida State Seminoles,34.3,29.4,63.7,7,7
+2026-11-27,North Dakota State Bison,San José State Spartans,24.0,17.3,41.2,8,8
+2026-11-28,Texas Longhorns,Texas A&M Aggies,26.5,23.7,50.2,7,8
+2026-11-28,Minnesota Golden Gophers,Wisconsin Badgers,20.4,23.5,43.9,7,7
+2026-11-28,West Virginia Mountaineers,Utah Utes,26.5,35.1,61.6,8,7
+2026-11-28,Boston College Eagles,Miami Hurricanes,20.3,37.1,57.5,7,7
+2026-11-28,Georgia Tech Yellow Jackets,Georgia Bulldogs,21.1,35.1,56.1,7,7
+2026-11-28,Purdue Boilermakers,Indiana Hoosiers,22.1,32.5,54.6,7,8
+2026-11-28,Notre Dame Fighting Irish,Syracuse Orange,34.9,25.8,60.7,7,7
+2026-11-28,USC Trojans,UCLA Bruins,25.0,31.9,56.9,8,7
+2026-11-28,Cincinnati Bearcats,BYU Cougars,27.2,28.2,55.4,7,7
+2026-11-28,Louisville Cardinals,Kentucky Wildcats,30.6,28.1,58.7,7,8
+2026-11-28,Auburn Tigers,Alabama Crimson Tide,24.4,29.3,53.8,7,8
+2026-11-28,Duke Blue Devils,Wake Forest Demon Deacons,24.3,27.2,51.5,7,7
+2026-11-28,LSU Tigers,Arkansas Razorbacks,37.9,19.6,57.5,8,7
+2026-11-28,Tennessee Volunteers,Vanderbilt Commodores,32.4,19.7,52.1,8,8
+2026-11-28,Baylor Bears,Houston Cougars,28.6,25.8,54.3,7,8
+2026-11-28,SMU Mustangs,Stanford Cardinal,36.0,21.1,57.0,7,8
+2026-11-28,Illinois Fighting Illini,Northwestern Wildcats,22.5,29.6,52.2,7,7
+2026-11-28,Arizona State Sun Devils,Arizona Wildcats,24.0,33.1,57.1,7,7
+2026-11-28,Oklahoma Sooners,Missouri Tigers,20.1,26.1,46.2,7,7
+2026-11-28,Kansas Jayhawks,Oklahoma State Cowboys,28.3,33.4,61.7,7,7
+2026-11-28,South Carolina Gamecocks,Clemson Tigers,29.6,24.1,53.7,7,7
+2026-11-28,UCF Knights,Colorado Buffaloes,29.8,21.6,51.4,7,7
+2026-11-28,Kansas State Wildcats,Iowa State Cyclones,30.2,23.7,53.9,7,7
+2026-11-28,NC State Wolfpack,North Carolina Tar Heels,26.0,25.8,51.8,7,7
+2026-11-28,Pittsburgh Panthers,California Golden Bears,32.7,23.4,56.1,8,8
+2026-11-28,Virginia Cavaliers,Virginia Tech Hokies,25.6,28.7,54.3,8,8
+2026-11-28,Penn State Nittany Lions,Maryland Terrapins,31.3,24.8,56.0,7,7
+2026-11-28,Washington Huskies,Oregon Ducks,24.2,29.2,53.4,7,7
+2026-11-28,Michigan State Spartans,Rutgers Scarlet Knights,26.9,27.8,54.7,8,7
+2026-11-28,UConn Huskies,Wyoming Cowboys,27.4,19.4,46.7,7,8
+2026-11-28,Tulsa Golden Hurricane,UTSA Roadrunners,27.9,27.3,55.2,8,7
+2026-11-28,Army Black Knights,Rice Owls,32.8,22.3,55.1,7,8
+2026-11-28,Navy Midshipmen,Charlotte 49ers,33.9,23.3,57.2,7,7
+2026-11-28,UAB Blazers,North Texas Mean Green,27.1,35.1,62.2,7,7
+2026-11-28,UTEP Miners,Northern Illinois Huskies,24.6,25.5,50.1,7,7
+2026-11-28,Coastal Carolina Chanticleers,James Madison Dukes,21.4,34.0,55.5,7,8
+2026-11-28,Louisiana Tech Bulldogs,Georgia Southern Eagles,28.3,23.3,51.6,7,7
+2026-11-28,Louisiana Ragin' Cajuns,Georgia State Panthers,29.3,29.5,58.8,8,7
+2026-11-28,Marshall Thundering Herd,UL Monroe Warhawks,29.5,24.8,54.2,7,7
+2026-11-28,Southern Miss Golden Eagles,Old Dominion Monarchs,25.9,21.0,46.9,7,8
+2026-11-28,Michigan Wolverines,Ohio State Buckeyes,16.6,28.5,45.0,7,7
+2026-11-28,Central Michigan Chippewas,Ball State Cardinals,25.0,23.9,48.9,8,8
+2026-11-28,Massachusetts Minutemen,Bowling Green Falcons,27.5,18.6,46.1,8,8
+2026-11-28,Kennesaw State Owls,Western Kentucky Hilltoppers,26.1,24.4,50.6,7,7
+2026-11-28,Liberty Flames,Missouri State Bears,31.2,19.4,50.7,7,7
+2026-11-28,Sam Houston Bearkats,Florida International Panthers,18.7,23.4,42.0,7,7
+2026-11-28,New Mexico State Aggies,Middle Tennessee Blue Raiders,26.5,23.1,49.5,7,7
+2026-11-28,Troy Trojans,Arkansas State Red Wolves,26.7,26.9,53.6,7,8
+2026-11-28,Jacksonville State Gamecocks,Delaware Blue Hens,26.6,25.6,52.2,7,7
+2026-11-28,Air Force Falcons,New Mexico Lobos,21.2,31.1,52.3,7,7
+2026-11-29,Nevada Wolf Pack,UNLV Rebels,24.7,22.9,47.6,7,7
+2026-11-29,Sacramento State Hornets,Hawai'i Rainbow Warriors,20.4,29.5,50.0,8,8
+2026-12-12,Navy Midshipmen,Army Black Knights,27.5,33.1,60.6,7,7
