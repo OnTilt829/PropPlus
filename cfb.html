@@ -73,7 +73,7 @@ const teamCell = (name,id) => {
   return '<span class="team-cell">' + img + '<span class="school-name">' + esc(shortSchool(name)) + '</span></span>';
 };
 const weekStart=date=>{const d=new Date(date+"T12:00:00Z");d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));return d.toISOString().slice(0,10)};
-const thisWeek=()=>weekStart(new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date()));
+const thisWeek=()=>{const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const v=Object.fromEntries(p.map(x=>[x.type,x.value]));return weekStart(v.year+"-"+v.month+"-"+v.day)};
 let data = [];
 window.addEventListener("resize",()=>render());
 const tbody = document.getElementById("rows");
