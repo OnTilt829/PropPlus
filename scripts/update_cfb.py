@@ -152,7 +152,7 @@ def main():
             row["STATUS"]="SCHEDULED"
         projections.append(row)
     projections.sort(key=lambda r:(r["DATE"],r.get("KICKOFF_UTC",""),r["AWAY"]))
-    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","KICKOFF_UTC","AVAILABILITY","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
+    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","KICKOFF_UTC","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS","AVAILABILITY"]
     write("cfb_projections.csv",projections,fields)
     (OUT/"cfb_metadata.json").write_text(json.dumps({"season":YEAR,"completed_games_with_verified_plays":len(history),"excluded_games_missing_plays":missing,"upcoming_projected_games":len(projections),"method":"Blend offensive points/play and opposing defensive points allowed/play; multiply by offensive plays/game","source":"ESPN public college football scoreboard and game summary","generated_at":now.isoformat()},indent=2)+"\n")
     print(f"CFB: {len(history)} verified completed games, {missing} missing-play games excluded, {len(projections)} upcoming projections")
