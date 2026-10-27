@@ -97,7 +97,10 @@ Promise.all([
   document.getElementById("status").textContent = (m.season || "") + " season · " + (m.completed_games_with_verified_plays || 0) + " verified games · " + data.length + " tracked games";
   document.getElementById("status").textContent += " · " + data.filter(r => r.benchmark).length + " benchmark matches";
   const weeks=[...new Set(data.map(r=>weekStart(r.date)))].sort().reverse();
-  const chosen=weeks.includes(thisWeek())?thisWeek():weeks[0];
+  const nowET=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"short"}).format(new Date());
+  const monday=new Date(thisWeek()+"T12:00:00Z");if(nowET==="Sun")monday.setUTCDate(monday.getUTCDate()+7);
+  const target=monday.toISOString().slice(0,10);
+  const chosen=weeks.includes(target)?target:weeks.includes(thisWeek())?thisWeek():weeks[0];
   document.getElementById("week").innerHTML=weeks.map(w=>'<option value="'+w+'"'+(w===chosen?" selected":"")+'>Week of '+w+'</option>').join("");
   render();
 }).catch(e => {
