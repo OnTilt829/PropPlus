@@ -12,6 +12,12 @@ def main():
   season=today.year if sport=="nfl" else today.year
   stats=defaultdict(lambda:{"scored":0,"allowed":0,"games":0})
   upcoming={}
+  completed={}
+  archive=OUT/f"{sport}_game_scores.csv"
+  old={}
+  if archive.exists():
+   with archive.open(newline="",encoding="utf-8") as file:
+    old={(r["KICKOFF_UTC"],r["AWAY_ID"],r["HOME_ID"]):r for r in csv.DictReader(file)}
   # Fetch broad date windows with ESPN scoreboard limit; NBA uses rolling season window.
   start=today-dt.timedelta(days=130 if sport=="nba" else 100)
   end=today+dt.timedelta(days=12 if sport=="nba" else 15)
@@ -32,6 +38,7 @@ def main():
     if status:
      try:a=float(away["score"]);h=float(home["score"])
      except (KeyError,TypeError,ValueError):continue
+     completed[(event.get("date",""),aid,hid)]=(int(a),int(h))
      for tid,p,opp in ((aid,a,h),(hid,h,a)):
       stats[tid]["scored"]+=p;stats[tid]["allowed"]+=opp;stats[tid]["games"]+=1
     else:
@@ -47,7 +54,24 @@ def main():
    ap=(a["scored"]/a["games"]+h["allowed"]/h["games"])/2
    hp=(h["scored"]/h["games"]+a["allowed"]/a["games"])/2
    rows.append([when,away["team"]["displayName"],home["team"]["displayName"],round(ap,1),round(hp,1),round(ap+hp,1),a["games"],h["games"],aid,hid])
-  with (OUT/f"{sport}_game_scores.csv").open("w",newline="",encoding="utf-8") as file:
-   writer=csv.writer(file);writer.writerow(["KICKOFF_UTC","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID"]);writer.writerows(rows)
+  fields=["KICKOFF_UTC","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
+  fresh=[dict(zip(fields[:10],r)) for r in rows]
+  combined={(r["KICKOFF_UTC"],r["AWAY_ID"],r["HOME_ID"]):r for r in fresh}
+  combined.update(old)
+  rows=[]
+  for key,row in combined.items():
+   row=dict(row)
+   final=completed.get(key)
+   if final:
+    row["AWAY_FINAL"],row["HOME_FINAL"]=final
+    row["FINAL_TOTAL"]=sum(final)
+    row["STATUS"]="FINAL"
+   elif row.get("STATUS")!="FINAL":
+    row["AWAY_FINAL"]=row["HOME_FINAL"]=row["FINAL_TOTAL"]=""
+    row["STATUS"]="SCHEDULED"
+   rows.append(row)
+  rows.sort(key=lambda r:r["KICKOFF_UTC"])
+  with archive.open("w",newline="",encoding="utf-8") as file:
+   writer=csv.DictWriter(file,fieldnames=fields);writer.writeheader();writer.writerows(rows)
   print(sport,len(rows),"projected matchups")
 if __name__=="__main__":main()
