@@ -1,0 +1,61 @@
+name: Refresh PropPlus Sports Analytics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1-5'
+    - cron: '0 13 * * 1-5'
+    - cron: '0 22 * * 1-5'
+    - cron: '0 23 * * 1-5'
+    - cron: '0 12 * * 0,6'
+    - cron: '0 13 * * 0,6'
+    - cron: '30 15 * * 0,6'
+    - cron: '30 16 * * 0,6'
+permissions:
+  contents: write
+concurrency:
+  group: propplus-sports-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify Eastern-time refresh window
+        id: time
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import datetime,os
+          from zoneinfo import ZoneInfo
+          now=datetime.datetime.now(ZoneInfo("America/New_York"))
+          target=[(8,0),(18,0)] if now.weekday()<5 else [(8,0),(11,30)]
+          # GitHub scheduled workflows may start late; allow 20-minute delay.
+          active=any(0 <= (now.hour*60+now.minute)-(h*60+m) <= 20 for h,m in target)
+          if os.getenv("EVENT_NAME")=="workflow_dispatch":active=True
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:f.write(f"run={'true' if active else 'false'}\n")
+          print("Eastern now:",now,"run:",active)
+          PY
+      - run: pip install requests
+        if: steps.time.outputs.run == 'true'
+      - name: Refresh NBA and NFL game score projections
+        if: steps.time.outputs.run == 'true'
+        run: python scripts/update_game_scores.py
+      - name: Refresh college football projections
+        if: steps.time.outputs.run == 'true'
+        run: python scripts/update_cfb.py
+      - name: Publish score projections
+        if: steps.time.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/nba_game_scores.csv data/nfl_game_scores.csv data/cfb_projections.csv data/cfb_metadata.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh scheduled PropPlus scores"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
