@@ -56,12 +56,13 @@ const projection = (value,benchmark) => {
   return esc(value) + '<span class="delta ' + cls + '" title="Model minus independent benchmark">(' + (d > 0 ? "+" : "") + d.toFixed(1) + ')</span>';
 };
 const kickoff = value => { if (!value) return "TBD"; const d = new Date(value); return Number.isNaN(d.getTime()) ? "TBD" : new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",hour12:true}).format(d) + " ET"; };
-const teamCell = (name,id) => {
+const shortSchool = name => {\n  if (!window.matchMedia("(max-width:720px)").matches) return name;\n  const mascot = /\\b(Hilltoppers|Bulldogs|Tigers|Wildcats|Eagles|Hurricanes|Panthers|Bears|Cougars|Mustangs|Rebels|Volunteers|Crimson Tide|Fighting Irish|Buckeyes|Wolverines|Spartans|Gators|Seminoles|Longhorns|Aggies|Sooners|Cowboys|Cardinals|Hawkeyes|Hokies|Trojans|Bruins|Ducks|Huskies|Broncos|Razorbacks|Commodores|Gamecocks|Red Raiders|Golden Gophers|Scarlet Knights|Golden Bears|Yellow Jackets|Demon Deacons|Wolfpack|Wolf Pack|Mountaineers|Bobcats|Owls|Rams|Knights|Miners|Mean Green|Rockets|Thundering Herd|Zips|RedHawks|Falcons|Chippewas|Warhawks|Ragin\\u2019 Cajuns|Ragin\\x27 Cajuns|Chanticleers|Jaguars|Blazers|Green Wave|Roadrunners|Lobos|Aztecs|Utes|Beavers|Sun Devils|Buffaloes|Rainbow Warriors|Golden Eagles|Golden Flashes|Bison|Blue Devils|Orange|Cyclones|Jayhawks|Horned Frogs|Bearcats|Pirates|Terrapins|Fighting Illini|Boilermakers|Hoosiers|Nittany Lions|Hawkeyes|Badgers|Huskers|Black Knights|Midshipmen|Red Wolves|Lions)\\b$/i;\n  return name.replace(mascot,"").trim() || name;\n};\nconst teamCell = (name,id) => {
   const url = logo(id);
   const img = url ? '<img class="team-logo" loading="lazy" alt="" src="' + url + '">' : "";
-  return '<span class="team-cell">' + img + esc(name) + '</span>';
+  return '<span class="team-cell">' + img + '<span class="school-name">' + esc(shortSchool(name)) + '</span></span>';
 };
 let data = [];
+window.addEventListener("resize",()=>render());
 const tbody = document.getElementById("rows");
 function render() {
   const q = document.getElementById("search").value.toLowerCase();
