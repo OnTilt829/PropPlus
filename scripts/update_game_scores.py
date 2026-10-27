@@ -5,6 +5,22 @@ from collections import defaultdict
 from pathlib import Path
 OUT=Path("data");OUT.mkdir(exist_ok=True)
 SPORTS={"nba":("basketball","nba"),"nfl":("football","nfl")}
+def availability(category,league,team_id):
+  url="https://site.api.espn.com/apis/site/v2/sports/{}/{}/teams/{}/injuries".format(category,league,team_id)
+  try:
+   response=requests.get(url,timeout=10);response.raise_for_status();payload=response.json()
+  except (requests.RequestException,ValueError):return []
+  entries=payload.get("injuries",[])
+  if not isinstance(entries,list):return []
+  found=[]
+  for item in entries:
+   athlete=item.get("athlete") or {}
+   status=item.get("status") or item.get("type") or ""
+   if isinstance(status,dict):status=status.get("name") or status.get("description") or ""
+   name=athlete.get("displayName") or athlete.get("fullName") or ""
+   if name and status:found.append({"player":name,"status":str(status),"source":url})
+  return found
+
 def main():
  for sport,(category,league) in SPORTS.items():
   base=f"https://site.api.espn.com/apis/site/v2/sports/{category}/{league}/scoreboard"
@@ -48,15 +64,19 @@ def main():
      except ValueError:continue
      if today<=scheduled<=end and dt.datetime.fromisoformat(when.replace("Z","+00:00"))>now:
       upcoming[event["id"]]=(when,away,home,aid,hid)
+  injury_cache={}
   rows=[]
   for when,away,home,aid,hid in sorted(upcoming.values(), key=lambda game: (game[0], game[3], game[4])):
    a=stats[aid];h=stats[hid]
    if min(a["games"],h["games"])<1:continue
    ap=(a["scored"]/a["games"]+h["allowed"]/h["games"])/2
    hp=(h["scored"]/h["games"]+a["allowed"]/a["games"])/2
-   rows.append([when,away["team"]["displayName"],home["team"]["displayName"],round(ap,1),round(hp,1),round(ap+hp,1),a["games"],h["games"],aid,hid])
-  fields=["KICKOFF_UTC","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
-  fresh=[dict(zip(fields[:10],r)) for r in rows]
+   for tid in (aid,hid):
+    if tid not in injury_cache:injury_cache[tid]=availability(category,league,tid)
+   notes=json.dumps({"away":injury_cache[aid],"home":injury_cache[hid]},separators=(",",":"))
+   rows.append([when,away["team"]["displayName"],home["team"]["displayName"],round(ap,1),round(hp,1),round(ap+hp,1),a["games"],h["games"],aid,hid,notes])
+  fields=["KICKOFF_UTC","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","AVAILABILITY","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
+  fresh=[dict(zip(fields[:11],r)) for r in rows]
   combined={(r["KICKOFF_UTC"],r["AWAY_ID"],r["HOME_ID"]):r for r in fresh}
   for key,prior in old.items():
    kickoff=dt.datetime.fromisoformat(key[0].replace("Z","+00:00"))
