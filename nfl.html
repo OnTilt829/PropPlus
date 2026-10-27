@@ -28,6 +28,8 @@ fetch(source+"?t="+Date.now()).then(r=>{if(!r.ok)throw Error("NFL projection dat
 
 let scoreRows=[],scoreError="";
 const scoreEsc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function scoreTeam(name,id){const valid=/^[0-9]+$/.test(String(id||""));const img=valid?'<img loading="lazy" alt="" style="width:27px;height:27px;object-fit:contain;vertical-align:middle;margin-right:9px" src="https://a.espncdn.com/i/teamlogos/nfl/500/'+id+'" onerror="this.style.display=\'none\'">':"";return '<span style="display:inline-flex;align-items:center">'+img+scoreEsc(name)+'</span>'}
 function renderScores(){
  const root=document.getElementById("content");
  if(scoreError){root.innerHTML='<p>'+scoreEsc(scoreError)+'</p>';return}
