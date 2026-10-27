@@ -77,7 +77,7 @@ def main():
             if any(x.get("team",{}).get("isActive") is False for x in (home,away)):continue
             date=e.get("date","")[:10]
             status=e.get("status",{}).get("type",{}).get("name","")
-            pair={"DATE":date,"AWAY":away["team"].get("displayName",""),"HOME":home["team"].get("displayName",""),"AWAY_ID":str(away["team"].get("id","")),"HOME_ID":str(home["team"].get("id",""))}
+            pair={"DATE":date,"KICKOFF_UTC":e.get("date",""),"AWAY":away["team"].get("displayName",""),"HOME":home["team"].get("displayName",""),"AWAY_ID":str(away["team"].get("id","")),"HOME_ID":str(home["team"].get("id",""))}
             if status=="STATUS_FINAL":
                 plays,sample=stats(eid)
                 try: ap=float(away["score"]);hp=float(home["score"])
@@ -103,8 +103,8 @@ def main():
         # Original model: blended offense/defense points per play times offense plays/game.
         away=((a["points"]/a["plays"]+h["allowed"]/h["defplays"])/2)*(a["plays"]/a["games"])
         home=((h["points"]/h["plays"]+a["allowed"]/a["defplays"])/2)*(h["plays"]/h["games"])
-        projections.append({"DATE":g["DATE"],"AWAY":g["AWAY"],"HOME":g["HOME"],"AWAY_PROJ":round(away,1),"HOME_PROJ":round(home,1),"PROJECTED_TOTAL":round(away+home,1),"AWAY_GP":a["games"],"HOME_GP":h["games"],"AWAY_ID":g["AWAY_ID"],"HOME_ID":g["HOME_ID"]})
-    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID"]
+        projections.append({"DATE":g["DATE"],"AWAY":g["AWAY"],"HOME":g["HOME"],"AWAY_PROJ":round(away,1),"HOME_PROJ":round(home,1),"PROJECTED_TOTAL":round(away+home,1),"AWAY_GP":a["games"],"HOME_GP":h["games"],"AWAY_ID":g["AWAY_ID"],"HOME_ID":g["HOME_ID"],"KICKOFF_UTC":g["KICKOFF_UTC"]})
+    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","KICKOFF_UTC"]
     write("cfb_projections.csv",projections,fields)
     (OUT/"cfb_metadata.json").write_text(json.dumps({"season":YEAR,"completed_games_with_verified_plays":len(history),"excluded_games_missing_plays":missing,"upcoming_projected_games":len(projections),"method":"Blend offensive points/play and opposing defensive points allowed/play; multiply by offensive plays/game","source":"ESPN public college football scoreboard and game summary","generated_at":now.isoformat()},indent=2)+"\n")
     print(f"CFB: {len(history)} verified completed games, {missing} missing-play games excluded, {len(projections)} upcoming projections")
