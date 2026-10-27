@@ -1,8 +1,32 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prop+ | College Football Analytics</title><style>:root{color-scheme:dark;font-family:Inter,system-ui,sans-serif;background:#0b1020;color:#e9eef9}body{margin:0}main{max-width:1250px;margin:auto;padding:35px 24px}nav{display:flex;gap:9px}nav a{padding:12px 18px;border-radius:9px;background:#17243d;color:white;text-decoration:none;border:1px solid #344762}nav a.active{background:#215b9c}h1{margin-top:30px}p,.muted{color:#aab8d0}table{border-collapse:collapse;width:100%;min-width:700px;font-size:14px}th,td{padding:14px;border-bottom:1px solid #30405b;text-align:left}th{background:#1c2d49;cursor:pointer}section{overflow:auto;border:1px solid #30405b;border-radius:12px}.team-logo{width:26px;height:26px;object-fit:contain;vertical-align:middle;margin-right:9px}.team-cell{display:flex;align-items:center;white-space:nowrap}input{background:#17243d;color:white;border:1px solid #344762;border-radius:9px;padding:12px;width:min(100%,500px);margin:16px 0}</style></head><body><main><nav><a href="/">NBA</a><a href="/nfl.html">NFL</a><a href="/cfb.html" class="active">College Football</a></nav><h1>College Football Performance Dashboard</h1><p>Team score projections from offensive and defensive points per play. Statistical estimates, not guaranteed outcomes.</p><div class="muted" id="status">Loading verified college football data…</div><input id="search" placeholder="Search teams or dates" aria-label="Search teams or dates"><section><table><thead><tr><th>Date</th><th>Away</th><th>Home</th><th>Away projected</th><th>Home projected</th><th>Projected total</th></tr></thead><tbody id="rows"></tbody></table></section><p class="muted">Games without verified offensive play counts are excluded. Early-season projections are based on smaller samples.</p></main><script>
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-let data=[];const tbody=document.getElementById("rows");
-const logo=id=>id&&/^\\d+$/.test(String(id))?'https://a.espncdn.com/i/teamlogos/ncaa/500/'+id+'.png':'';
-const teamCell=(name,id)=>'<span class="team-cell">'+(logo(id)?'<img class="team-logo" loading="lazy" alt="" src="'+logo(id)+'" onerror="this.style.display='none'">':'')+esc(name)+'</span>';
-function render(){const q=document.getElementById("search").value.toLowerCase();const items=data.filter(r=>[r.date,r.away,r.home].some(x=>String(x).toLowerCase().includes(q)));tbody.innerHTML=items.map(r=>'<tr><td>'+esc(r.date)+'</td><td>'+teamCell(r.away,r.awayId)+'</td><td>'+teamCell(r.home,r.homeId)+'</td><td>'+esc(r.awayProj)+'</td><td>'+esc(r.homeProj)+'</td><td>'+esc(r.total)+'</td></tr>').join("")||'<tr><td colspan="6">No matching verified projections.</td></tr>'}
-Promise.all([fetch("data/cfb_projections.csv?v="+Date.now()).then(r=>{if(!r.ok)throw Error("Projections not published yet");return r.text()}),fetch("data/cfb_metadata.json?v="+Date.now()).then(r=>r.ok?r.json():{})]).then(([csv,m])=>{const lines=csv.trim().split(/\\r?\\n/);data=lines.slice(1).filter(Boolean).map(line=>{const c=line.split(",");return {date:c[0],away:c[1],home:c[2],awayProj:c[3],homeProj:c[4],total:c[5],awayId:c[8],homeId:c[9]}});document.getElementById("status").textContent=(m.season||"")+" season · "+(m.completed_games_with_verified_plays||0)+" completed games with verified plays · "+data.length+" upcoming projections";render()}).catch(e=>{document.getElementById("status").textContent=e.message;tbody.innerHTML='<tr><td colspan="6">Data refresh pending. Check GitHub Actions.</td></tr>'});document.getElementById("search").addEventListener("input",render);
+const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+const logo = id => /^[0-9]+$/.test(String(id || "")) ? "https://a.espncdn.com/i/teamlogos/ncaa/500/" + id + ".png" : "";
+const teamCell = (name,id) => {
+  const url = logo(id);
+  const img = url ? '<img class="team-logo" loading="lazy" alt="" src="' + url + '">' : "";
+  return '<span class="team-cell">' + img + esc(name) + '</span>';
+};
+let data = [];
+const tbody = document.getElementById("rows");
+function render() {
+  const q = document.getElementById("search").value.toLowerCase();
+  const rows = data.filter(r => [r.date,r.away,r.home].some(x => String(x).toLowerCase().includes(q)));
+  tbody.innerHTML = rows.map(r => '<tr><td>' + esc(r.date) + '</td><td>' + teamCell(r.away,r.awayId) + '</td><td>' + teamCell(r.home,r.homeId) + '</td><td>' + esc(r.awayProj) + '</td><td>' + esc(r.homeProj) + '</td><td>' + esc(r.total) + '</td></tr>').join("") || '<tr><td colspan="6">No matching projections.</td></tr>';
+}
+Promise.all([
+  fetch("data/cfb_projections.csv?v=" + Date.now()).then(r => {if (!r.ok) throw Error("Projections not published yet"); return r.text()}),
+  fetch("data/cfb_metadata.json?v=" + Date.now()).then(r => r.ok ? r.json() : {})
+]).then(([csv,m]) => {
+  const lines = csv.trim().split(new RegExp("\\r?\\n"));
+  data = lines.slice(1).filter(Boolean).map(line => {
+    const c = line.split(",");
+    return {date:c[0],away:c[1],home:c[2],awayProj:c[3],homeProj:c[4],total:c[5],awayId:c[8],homeId:c[9]};
+  });
+  document.getElementById("status").textContent = (m.season || "") + " season · " + (m.completed_games_with_verified_plays || 0) + " verified games · " + data.length + " projections";
+  render();
+}).catch(e => {
+  document.getElementById("status").textContent = e.message;
+  tbody.innerHTML = '<tr><td colspan="6">Data refresh pending. Check GitHub Actions.</td></tr>';
+});
+document.getElementById("search").addEventListener("input",render);
 </script></body></html>
