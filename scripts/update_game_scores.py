@@ -8,7 +8,8 @@ SPORTS={"nba":("basketball","nba"),"nfl":("football","nfl")}
 def main():
  for sport,(category,league) in SPORTS.items():
   base=f"https://site.api.espn.com/apis/site/v2/sports/{category}/{league}/scoreboard"
-  today=dt.datetime.now(dt.timezone.utc).date()
+  now=dt.datetime.now(dt.timezone.utc)
+  today=now.date()
   season=today.year if sport=="nfl" else today.year
   stats=defaultdict(lambda:{"scored":0,"allowed":0,"games":0})
   upcoming={}
@@ -45,7 +46,7 @@ def main():
      when=event.get("date","")
      try:scheduled=dt.datetime.fromisoformat(when.replace("Z","+00:00")).date()
      except ValueError:continue
-     if today<=scheduled<=end:
+     if today<=scheduled<=end and dt.datetime.fromisoformat(when.replace("Z","+00:00"))>now:
       upcoming[event["id"]]=(when,away,home,aid,hid)
   rows=[]
   for when,away,home,aid,hid in sorted(upcoming.values(), key=lambda game: (game[0], game[3], game[4])):
@@ -57,7 +58,10 @@ def main():
   fields=["KICKOFF_UTC","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
   fresh=[dict(zip(fields[:10],r)) for r in rows]
   combined={(r["KICKOFF_UTC"],r["AWAY_ID"],r["HOME_ID"]):r for r in fresh}
-  combined.update(old)
+  for key,prior in old.items():
+   kickoff=dt.datetime.fromisoformat(key[0].replace("Z","+00:00"))
+   if kickoff<=now or prior.get("STATUS")=="FINAL" or key not in combined:
+    combined[key]=prior
   rows=[]
   for key,row in combined.items():
    row=dict(row)
