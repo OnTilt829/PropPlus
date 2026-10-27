@@ -96,7 +96,7 @@ def main():
                     if len(diagnostics)<3:diagnostics.append({"event_id":eid,"teams":[pair["AWAY"],pair["HOME"]],"plays":plays,"sample_statistics":sample})
                     continue
                 history.append({**pair,"AWAY_PTS":ap,"HOME_PTS":hp,"AWAY_PLAYS":pa,"HOME_PLAYS":ph})
-            elif date>=now.date().isoformat():
+            elif e.get("date","") and dt.datetime.fromisoformat(e["date"].replace("Z","+00:00"))>now:
                 future.append(pair)
     # Use verified FBS teams appearing in completed FBS scoreboard games.
     teamlog=defaultdict(lambda:{"points":0.,"plays":0.,"allowed":0.,"defplays":0.,"games":0})
@@ -113,7 +113,12 @@ def main():
         home=((h["points"]/h["plays"]+a["allowed"]/a["defplays"])/2)*(h["plays"]/h["games"])
         projections.append({"DATE":g["DATE"],"AWAY":g["AWAY"],"HOME":g["HOME"],"AWAY_PROJ":round(away,1),"HOME_PROJ":round(home,1),"PROJECTED_TOTAL":round(away+home,1),"AWAY_GP":a["games"],"HOME_GP":h["games"],"AWAY_ID":g["AWAY_ID"],"HOME_ID":g["HOME_ID"],"KICKOFF_UTC":g["KICKOFF_UTC"]})
     current={(r["AWAY_ID"],r["HOME_ID"],r["DATE"]):r for r in projections}
-    current.update(previous)
+    for key,prior in previous.items():
+        when=prior.get("KICKOFF_UTC","")
+        try: started=dt.datetime.fromisoformat(when.replace("Z","+00:00"))<=now
+        except ValueError: started=True
+        if started or prior.get("STATUS")=="FINAL" or key not in current:
+            current[key]=prior
     projections=[]
     for key,row in current.items():
         row=dict(row)
