@@ -49,8 +49,10 @@ def stats(event_id):
         if plays is None:
             rush=numeric("rushingAttempts","rushAttempts","rushingAtt","rushAtt")
             comp=vals.get("completionattempts") or vals.get("completionsattempts")
-            if rush is not None and comp and "-" in str(comp):
-                try:plays=rush+float(str(comp).split("-")[-1])
+            if rush is not None and comp and ("/" in str(comp) or "-" in str(comp)):
+                try:
+                    attempts=float(str(comp).replace("-", "/").split("/")[-1].strip())
+                    if attempts >= 0: plays=rush+attempts
                 except ValueError:pass
         found[tid]=plays
     return found, list(entries[0].get("statistics",[]))[:15] if entries else []
