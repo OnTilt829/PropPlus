@@ -42,7 +42,7 @@ button,select,input{min-height:44px}
  .game h2{padding:12px;font-size:15px}
  .muted{font-size:12px}
 }
-</style></head><body><main><div class="logo" style="font-size:30px;font-weight:850;margin-bottom:22px">Prop<b>+</b></div><nav><a href="/">NBA</a><a href="/nfl.html">NFL</a><a href="/cfb.html" class="active">College Football</a></nav><h1>College Football Performance Dashboard</h1><p>Team score projections from offensive and defensive points per play. Statistical estimates, not guaranteed outcomes.</p><div class="muted" id="status">Loading verified college football data…</div><input id="search" placeholder="Search teams or dates" aria-label="Search teams or dates"><section><table><thead><tr><th>Date</th><th>Kickoff (ET)</th><th>Away</th><th>Home</th><th>Away projected</th><th>Home projected</th><th>Projected total</th></tr></thead><tbody id="rows"></tbody></table></section><p class="benchmark-note">Colored values in parentheses show model minus independently supplied benchmark. No indicator means no matching benchmark is available.</p><p class="muted">Games without verified offensive play counts are excluded. Early-season projections are based on smaller samples.</p></main><script>
+</style></head><body><main><div class="logo" style="font-size:30px;font-weight:850;margin-bottom:22px">Prop<b>+</b></div><nav><a href="/">NBA</a><a href="/nfl.html">NFL</a><a href="/cfb.html" class="active">College Football</a></nav><h1>College Football Performance Dashboard</h1><p>Team score projections from offensive and defensive points per play. Statistical estimates, not guaranteed outcomes.</p><div class="muted" id="status">Loading verified college football data…</div><input id="search" placeholder="Search teams or dates" aria-label="Search teams or dates"><section><table><thead><tr><th>Date</th><th>Kickoff (ET)</th><th>Away</th><th>Home</th><th>Away projected</th><th>Home projected</th><th>Projected total</th></tr></thead><tbody id="rows"></tbody></table></section><p class="benchmark-note">Final results appear beside the original prediction. Green means the final score exceeded the prediction; red means it finished below.</p><p class="muted">Games without verified offensive play counts are excluded. Early-season projections are based on smaller samples.</p></main><script>
 const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 const logo = id => /^[0-9]+$/.test(String(id || "")) ? "https://a.espncdn.com/i/teamlogos/ncaa/500/" + id + ".png" : "";
 const benchmarkKey = (date,away,home) => [date,away.trim().toLowerCase(),home.trim().toLowerCase()].join("|");
@@ -61,6 +61,12 @@ const shortSchool = name => {
   const mascot = /\b(Hilltoppers|Bulldogs|Tigers|Wildcats|Eagles|Hurricanes|Panthers|Bears|Cougars|Mustangs|Rebels|Volunteers|Crimson Tide|Fighting Irish|Buckeyes|Wolverines|Spartans|Gators|Seminoles|Longhorns|Aggies|Sooners|Cowboys|Cardinals|Hawkeyes|Hokies|Trojans|Bruins|Ducks|Huskies|Broncos|Razorbacks|Commodores|Gamecocks|Red Raiders|Golden Gophers|Scarlet Knights|Golden Bears|Yellow Jackets|Demon Deacons|Wolfpack|Wolf Pack|Mountaineers|Bobcats|Owls|Rams|Knights|Miners|Mean Green|Rockets|Thundering Herd|Zips|RedHawks|Falcons|Chippewas|Warhawks|Ragin\u2019 Cajuns|Ragin\x27 Cajuns|Chanticleers|Jaguars|Blazers|Green Wave|Roadrunners|Lobos|Aztecs|Utes|Beavers|Sun Devils|Buffaloes|Rainbow Warriors|Golden Eagles|Golden Flashes|Bison|Blue Devils|Orange|Cyclones|Jayhawks|Horned Frogs|Bearcats|Pirates|Terrapins|Fighting Illini|Boilermakers|Hoosiers|Nittany Lions|Hawkeyes|Badgers|Huskers|Black Knights|Midshipmen|Red Wolves|Lions)\b$/i;
   return name.replace(mascot,"").trim() || name;
 };
+const resultCell=(pred,actual,status)=>{
+  if(status!=="FINAL" || actual==="" || actual==null)return esc(pred);
+  const diff=Number(actual)-Number(pred);
+  const cls=diff>0.049?"pos":diff< -0.049?"neg":"zero";
+  return esc(pred)+' <strong>Final: '+esc(actual)+'</strong> <span class="delta '+cls+'">('+(diff>0?"+":"")+diff.toFixed(1)+')</span>';
+};
 const teamCell = (name,id) => {
   const url = logo(id);
   const img = url ? '<img class="team-logo" loading="lazy" alt="" src="' + url + '">' : "";
@@ -72,7 +78,7 @@ const tbody = document.getElementById("rows");
 function render() {
   const q = document.getElementById("search").value.toLowerCase();
   const rows = data.filter(r => [r.date,r.away,r.home].some(x => String(x).toLowerCase().includes(q)));
-  tbody.innerHTML = rows.map(r => '<tr><td>' + esc(r.date) + '</td><td>' + esc(kickoff(r.kickoffUtc)) + '</td><td>' + teamCell(r.away,r.awayId) + '</td><td>' + teamCell(r.home,r.homeId) + '</td><td>' + projection(r.awayProj,r.benchmark?.away) + '</td><td>' + projection(r.homeProj,r.benchmark?.home) + '</td><td>' + projection(r.total,r.benchmark?.total) + '</td></tr>').join("") || '<tr><td colspan="7">No matching projections.</td></tr>';
+  tbody.innerHTML = rows.map(r => '<tr><td>' + esc(r.date) + '</td><td>' + esc(kickoff(r.kickoffUtc)) + '</td><td>' + teamCell(r.away,r.awayId) + '</td><td>' + teamCell(r.home,r.homeId) + '</td><td>' + resultCell(r.awayProj,r.awayFinal,r.status) + '</td><td>' + resultCell(r.homeProj,r.homeFinal,r.status) + '</td><td>' + resultCell(r.total,r.finalTotal,r.status) + '</td></tr>').join("") || '<tr><td colspan="7">No matching projections.</td></tr>';
 }
 Promise.all([
   fetch("data/cfb_projections.csv?v=" + Date.now()).then(r => {if (!r.ok) throw Error("Projections not published yet"); return r.text()}),
@@ -83,9 +89,9 @@ Promise.all([
   const lines = csv.trim().split(new RegExp("\\r?\\n"));
   data = lines.slice(1).filter(Boolean).map(line => {
     const c = line.split(",");
-    return {date:c[0],away:c[1],home:c[2],awayProj:c[3],homeProj:c[4],total:c[5],awayId:c[8],homeId:c[9],kickoffUtc:c[10],benchmark:benchmarks.get(benchmarkKey(c[0],c[1],c[2]))};
+    return {date:c[0],away:c[1],home:c[2],awayProj:c[3],homeProj:c[4],total:c[5],awayId:c[8],homeId:c[9],kickoffUtc:c[10],awayFinal:c[11]||"",homeFinal:c[12]||"",finalTotal:c[13]||"",status:c[14]||"",benchmark:benchmarks.get(benchmarkKey(c[0],c[1],c[2]))};
   });
-  document.getElementById("status").textContent = (m.season || "") + " season · " + (m.completed_games_with_verified_plays || 0) + " verified games · " + data.length + " projections";
+  document.getElementById("status").textContent = (m.season || "") + " season · " + (m.completed_games_with_verified_plays || 0) + " verified games · " + data.length + " tracked games";
   document.getElementById("status").textContent += " · " + data.filter(r => r.benchmark).length + " benchmark matches";
   render();
 }).catch(e => {
