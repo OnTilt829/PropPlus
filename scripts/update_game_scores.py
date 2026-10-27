@@ -41,7 +41,7 @@ def main():
      if today<=scheduled<=end:
       upcoming[event["id"]]=(when,away,home,aid,hid)
   rows=[]
-  for when,away,home,aid,hid in sorted(upcoming.values()):
+  for when,away,home,aid,hid in sorted(upcoming.values(), key=lambda game: (game[0], game[3], game[4])):
    a=stats[aid];h=stats[hid]
    if min(a["games"],h["games"])<1:continue
    ap=(a["scored"]/a["games"]+h["allowed"]/h["games"])/2
