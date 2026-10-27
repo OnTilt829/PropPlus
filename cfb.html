@@ -42,7 +42,7 @@ button,select,input{min-height:44px}
  .game h2{padding:12px;font-size:15px}
  .muted{font-size:12px}
 }
-</style></head><body><main><div class="logo" style="font-size:30px;font-weight:850;margin-bottom:22px">Prop<b>+</b></div><nav><a href="/">NBA</a><a href="/nfl.html">NFL</a><a href="/cfb.html" class="active">College Football</a></nav><h1>College Football Performance Dashboard</h1><p>Team score projections from offensive and defensive points per play. Statistical estimates, not guaranteed outcomes.</p><div class="muted" id="status">Loading verified college football data…</div><input id="search" placeholder="Search teams or dates" aria-label="Search teams or dates"><section><table><thead><tr><th>Date</th><th>Kickoff (ET)</th><th>Away</th><th>Home</th><th>Away projected</th><th>Home projected</th><th>Projected total</th></tr></thead><tbody id="rows"></tbody></table></section><p class="benchmark-note">Final results appear beside the original prediction. Green means the final score exceeded the prediction; red means it finished below.</p><p class="muted">Games without verified offensive play counts are excluded. Early-season projections are based on smaller samples.</p></main><script>
+</style></head><body><main><div class="logo" style="font-size:30px;font-weight:850;margin-bottom:22px">Prop<b>+</b></div><nav><a href="/">NBA</a><a href="/nfl.html">NFL</a><a href="/cfb.html" class="active">College Football</a></nav><h1>College Football Performance Dashboard</h1><p>Team score projections from offensive and defensive points per play. Statistical estimates, not guaranteed outcomes.</p><div class="muted" id="status">Loading verified college football data…</div><div class="controls"><label for="week">Projection week</label><select id="week" aria-label="Select projection week"></select></div><input id="search" placeholder="Search teams or dates" aria-label="Search teams or dates"><section><table><thead><tr><th>Date</th><th>Kickoff (ET)</th><th>Away</th><th>Home</th><th>Away projected</th><th>Home projected</th><th>Projected total</th></tr></thead><tbody id="rows"></tbody></table></section><p class="benchmark-note">Final results appear beside the original prediction. Green means the final score exceeded the prediction; red means it finished below.</p><p class="muted">Games without verified offensive play counts are excluded. Early-season projections are based on smaller samples.</p></main><script>
 const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 const logo = id => /^[0-9]+$/.test(String(id || "")) ? "https://a.espncdn.com/i/teamlogos/ncaa/500/" + id + ".png" : "";
 const benchmarkKey = (date,away,home) => [date,away.trim().toLowerCase(),home.trim().toLowerCase()].join("|");
@@ -72,12 +72,15 @@ const teamCell = (name,id) => {
   const img = url ? '<img class="team-logo" loading="lazy" alt="" src="' + url + '">' : "";
   return '<span class="team-cell">' + img + '<span class="school-name">' + esc(shortSchool(name)) + '</span></span>';
 };
+const weekStart=date=>{const d=new Date(date+"T12:00:00Z");d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));return d.toISOString().slice(0,10)};
+const thisWeek=()=>weekStart(new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date()));
 let data = [];
 window.addEventListener("resize",()=>render());
 const tbody = document.getElementById("rows");
 function render() {
   const q = document.getElementById("search").value.toLowerCase();
-  const rows = data.filter(r => [r.date,r.away,r.home].some(x => String(x).toLowerCase().includes(q)));
+  const selected=document.getElementById("week").value;
+  const rows = data.filter(r => weekStart(r.date)===selected && [r.date,r.away,r.home].some(x => String(x).toLowerCase().includes(q)));
   tbody.innerHTML = rows.map(r => '<tr><td>' + esc(r.date) + '</td><td>' + esc(kickoff(r.kickoffUtc)) + '</td><td>' + teamCell(r.away,r.awayId) + '</td><td>' + teamCell(r.home,r.homeId) + '</td><td>' + resultCell(r.awayProj,r.awayFinal,r.status) + '</td><td>' + resultCell(r.homeProj,r.homeFinal,r.status) + '</td><td>' + resultCell(r.total,r.finalTotal,r.status) + '</td></tr>').join("") || '<tr><td colspan="7">No matching projections.</td></tr>';
 }
 Promise.all([
@@ -93,10 +96,14 @@ Promise.all([
   });
   document.getElementById("status").textContent = (m.season || "") + " season · " + (m.completed_games_with_verified_plays || 0) + " verified games · " + data.length + " tracked games";
   document.getElementById("status").textContent += " · " + data.filter(r => r.benchmark).length + " benchmark matches";
+  const weeks=[...new Set(data.map(r=>weekStart(r.date)))].sort().reverse();
+  const chosen=weeks.includes(thisWeek())?thisWeek():weeks[0];
+  document.getElementById("week").innerHTML=weeks.map(w=>'<option value="'+w+'"'+(w===chosen?" selected":"")+'>Week of '+w+'</option>').join("");
   render();
 }).catch(e => {
   document.getElementById("status").textContent = e.message;
   tbody.innerHTML = '<tr><td colspan="6">Data refresh pending. Check GitHub Actions.</td></tr>';
 });
 document.getElementById("search").addEventListener("input",render);
+document.getElementById("week").addEventListener("change",render);
 </script></body></html>
