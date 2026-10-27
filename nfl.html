@@ -13,6 +13,37 @@ button,select,input,nav a,.pill{background:#181818;color:#f5f5f5;border-color:#3
 button.active,nav a.active{background:#3a3014;border-color:#d4af37;color:#f7e6ab}
 a{color:#e2c46c}
 p,.muted{color:#b6b6b6}
+
+/* Mobile-first enhancements, shared across Prop+ dashboards */
+html{-webkit-text-size-adjust:100%}
+body{min-width:0}
+main{width:100%;max-width:1350px;box-sizing:border-box}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{display:inline-flex;align-items:center;justify-content:center;min-height:44px}
+.panel,section{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{font-variant-numeric:tabular-nums}
+th,td{vertical-align:middle}
+button,select,input{min-height:44px}
+.access-label{font-size:12px;color:#d4af37;border:1px solid #6e5a22;border-radius:99px;padding:5px 10px;display:inline-block}
+@media(max-width:720px){
+ header{padding:14px 16px;align-items:flex-start}
+ .logo{font-size:27px}
+ main{padding:16px 12px 36px}
+ h1{font-size:23px;line-height:1.2}
+ nav{margin:14px 0 18px;gap:7px}
+ nav a{flex:1 1 auto;padding:10px 11px!important;font-size:13px;text-align:center}
+ .controls{display:grid;grid-template-columns:1fr;gap:9px;margin:12px 0}
+ .controls input,.controls select,input#search{width:100%;min-width:0;max-width:none}
+ #tabs{display:flex;overflow-x:auto;flex-wrap:nowrap;gap:7px;padding-bottom:7px;-webkit-overflow-scrolling:touch}
+ #tabs button,button[data-pos],#games,#scores{flex-shrink:0;white-space:nowrap}
+ .panel,section{border-radius:9px}
+ table{min-width:680px;font-size:12px}
+ th,td{padding:10px 9px}
+ .team-logo{width:23px;height:23px}
+ .game{margin:15px 0}
+ .game h2{padding:12px;font-size:15px}
+ .muted{font-size:12px}
+}
 </style></head><body><header><div class="logo">Prop<b>+</b></div><div class="muted">NFL performance analytics · Weekly projections</div></header><main><nav><a href="/">NBA</a><a href="/nfl.html" class="active">NFL</a><a href="/cfb.html" style="padding:11px 18px;background:#181818;color:#f5f5f5;border:1px solid #383838;border-radius:9px;text-decoration:none;margin-left:0">College Football</a></nav><h1>NFL Player Performance Dashboard</h1><p>Quarterback, running back, wide receiver and tight end projections, with individual game breakdowns. Statistical estimates, not guaranteed outcomes.</p><div class="controls"><button data-pos="ALL" class="active">All Positions</button><button data-pos="QB">QB</button><button data-pos="RB">RB</button><button data-pos="WR">WR</button><button data-pos="TE">TE</button><button id="games">Game by Game</button><button id="scores">Projected Scores</button></div><div class="controls"><input id="search" placeholder="Search players or teams" type="search"><select id="team"><option value="">All teams</option></select><span id="count" class="muted">Loading…</span></div><section id="content" aria-live="polite"></section><p class="muted">Source: <a href="https://github.com/OnTilt829/NFL-Player-Props">NFL analytics model</a></p></main><script>
 const source="https://raw.githubusercontent.com/OnTilt829/NFL-Player-Props/main/output/projections.csv";
 const state={rows:[],pos:"ALL",team:"",query:"",games:false,sort:"",desc:true};
