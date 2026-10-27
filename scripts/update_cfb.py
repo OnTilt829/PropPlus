@@ -59,6 +59,22 @@ def stats(event_id):
 def write(name,rows,fields):
     with (OUT/name).open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
+def injury_report(team_id):
+    url=f"{BASE}/teams/{team_id}/injuries"
+    try:
+        response=S.get(url,timeout=10);response.raise_for_status();payload=response.json()
+    except (requests.RequestException,ValueError):return []
+    entries=payload.get("injuries",[])
+    if not isinstance(entries,list):return []
+    result=[]
+    for item in entries:
+        athlete=item.get("athlete") or {}
+        status=item.get("status") or item.get("type") or ""
+        if isinstance(status,dict):status=status.get("name") or status.get("description") or ""
+        name=athlete.get("displayName") or athlete.get("fullName") or ""
+        if name and status:result.append({"player":name,"status":str(status),"source":url})
+    return result
+
 def main():
     history=[]; future=[]; completed_scores={}; seen=set(); missing=0; diagnostics=[]
     previous={}
@@ -104,6 +120,7 @@ def main():
         a=teamlog[g["AWAY_ID"]];h=teamlog[g["HOME_ID"]]
         a["points"]+=g["AWAY_PTS"];a["plays"]+=g["AWAY_PLAYS"];a["allowed"]+=g["HOME_PTS"];a["defplays"]+=g["HOME_PLAYS"];a["games"]+=1
         h["points"]+=g["HOME_PTS"];h["plays"]+=g["HOME_PLAYS"];h["allowed"]+=g["AWAY_PTS"];h["defplays"]+=g["AWAY_PLAYS"];h["games"]+=1
+    injury_cache={}
     projections=[]
     for g in sorted(future,key=lambda x:x["DATE"]):
         a=teamlog.get(g["AWAY_ID"]);h=teamlog.get(g["HOME_ID"])
@@ -111,7 +128,10 @@ def main():
         # Original model: blended offense/defense points per play times offense plays/game.
         away=((a["points"]/a["plays"]+h["allowed"]/h["defplays"])/2)*(a["plays"]/a["games"])
         home=((h["points"]/h["plays"]+a["allowed"]/a["defplays"])/2)*(h["plays"]/h["games"])
-        projections.append({"DATE":g["DATE"],"AWAY":g["AWAY"],"HOME":g["HOME"],"AWAY_PROJ":round(away,1),"HOME_PROJ":round(home,1),"PROJECTED_TOTAL":round(away+home,1),"AWAY_GP":a["games"],"HOME_GP":h["games"],"AWAY_ID":g["AWAY_ID"],"HOME_ID":g["HOME_ID"],"KICKOFF_UTC":g["KICKOFF_UTC"]})
+        for tid in (g["AWAY_ID"],g["HOME_ID"]):
+            if tid not in injury_cache:injury_cache[tid]=injury_report(tid)
+        availability=json.dumps({"away":injury_cache[g["AWAY_ID"]],"home":injury_cache[g["HOME_ID"]]},separators=(",",":"))
+        projections.append({"AVAILABILITY":availability,"DATE":g["DATE"],"AWAY":g["AWAY"],"HOME":g["HOME"],"AWAY_PROJ":round(away,1),"HOME_PROJ":round(home,1),"PROJECTED_TOTAL":round(away+home,1),"AWAY_GP":a["games"],"HOME_GP":h["games"],"AWAY_ID":g["AWAY_ID"],"HOME_ID":g["HOME_ID"],"KICKOFF_UTC":g["KICKOFF_UTC"]})
     current={(r["AWAY_ID"],r["HOME_ID"],r["DATE"]):r for r in projections}
     for key,prior in previous.items():
         when=prior.get("KICKOFF_UTC","")
@@ -132,7 +152,7 @@ def main():
             row["STATUS"]="SCHEDULED"
         projections.append(row)
     projections.sort(key=lambda r:(r["DATE"],r.get("KICKOFF_UTC",""),r["AWAY"]))
-    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","KICKOFF_UTC","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
+    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","KICKOFF_UTC","AVAILABILITY","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
     write("cfb_projections.csv",projections,fields)
     (OUT/"cfb_metadata.json").write_text(json.dumps({"season":YEAR,"completed_games_with_verified_plays":len(history),"excluded_games_missing_plays":missing,"upcoming_projected_games":len(projections),"method":"Blend offensive points/play and opposing defensive points allowed/play; multiply by offensive plays/game","source":"ESPN public college football scoreboard and game summary","generated_at":now.isoformat()},indent=2)+"\n")
     print(f"CFB: {len(history)} verified completed games, {missing} missing-play games excluded, {len(projections)} upcoming projections")
