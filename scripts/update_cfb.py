@@ -60,7 +60,12 @@ def write(name,rows,fields):
     with (OUT/name).open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
 def main():
-    history=[]; future=[]; seen=set(); missing=0; diagnostics=[]
+    history=[]; future=[]; completed_scores={}; seen=set(); missing=0; diagnostics=[]
+    previous={}
+    archive=OUT/"cfb_projections.csv"
+    if archive.exists():
+        with archive.open(newline="",encoding="utf-8") as file:
+            previous={(r["AWAY_ID"],r["HOME_ID"],r["DATE"]):r for r in csv.DictReader(file)}
     now=dt.datetime.now(dt.timezone.utc)
     for week in range(1,18):
         payload=get("/scoreboard",{"dates":YEAR,"week":week,"seasontype":2,"groups":80,"limit":500})
@@ -79,6 +84,9 @@ def main():
             status=e.get("status",{}).get("type",{}).get("name","")
             pair={"DATE":date,"KICKOFF_UTC":e.get("date",""),"AWAY":away["team"].get("displayName",""),"HOME":home["team"].get("displayName",""),"AWAY_ID":str(away["team"].get("id","")),"HOME_ID":str(home["team"].get("id",""))}
             if status=="STATUS_FINAL":
+                try:
+                    completed_scores[(pair["AWAY_ID"],pair["HOME_ID"],pair["DATE"])]=(int(float(away["score"])),int(float(home["score"])))
+                except (KeyError,ValueError,TypeError):pass
                 plays,sample=stats(eid)
                 try: ap=float(away["score"]);hp=float(home["score"])
                 except (KeyError,ValueError,TypeError):continue
@@ -104,7 +112,22 @@ def main():
         away=((a["points"]/a["plays"]+h["allowed"]/h["defplays"])/2)*(a["plays"]/a["games"])
         home=((h["points"]/h["plays"]+a["allowed"]/a["defplays"])/2)*(h["plays"]/h["games"])
         projections.append({"DATE":g["DATE"],"AWAY":g["AWAY"],"HOME":g["HOME"],"AWAY_PROJ":round(away,1),"HOME_PROJ":round(home,1),"PROJECTED_TOTAL":round(away+home,1),"AWAY_GP":a["games"],"HOME_GP":h["games"],"AWAY_ID":g["AWAY_ID"],"HOME_ID":g["HOME_ID"],"KICKOFF_UTC":g["KICKOFF_UTC"]})
-    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","KICKOFF_UTC"]
+    current={(r["AWAY_ID"],r["HOME_ID"],r["DATE"]):r for r in projections}
+    current.update(previous)
+    projections=[]
+    for key,row in current.items():
+        row=dict(row)
+        result=completed_scores.get(key)
+        if result:
+            row["AWAY_FINAL"],row["HOME_FINAL"]=result
+            row["FINAL_TOTAL"]=sum(result)
+            row["STATUS"]="FINAL"
+        elif row.get("STATUS")!="FINAL":
+            row["AWAY_FINAL"]=row["HOME_FINAL"]=row["FINAL_TOTAL"]=""
+            row["STATUS"]="SCHEDULED"
+        projections.append(row)
+    projections.sort(key=lambda r:(r["DATE"],r.get("KICKOFF_UTC",""),r["AWAY"]))
+    fields=["DATE","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","KICKOFF_UTC","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
     write("cfb_projections.csv",projections,fields)
     (OUT/"cfb_metadata.json").write_text(json.dumps({"season":YEAR,"completed_games_with_verified_plays":len(history),"excluded_games_missing_plays":missing,"upcoming_projected_games":len(projections),"method":"Blend offensive points/play and opposing defensive points allowed/play; multiply by offensive plays/game","source":"ESPN public college football scoreboard and game summary","generated_at":now.isoformat()},indent=2)+"\n")
     print(f"CFB: {len(history)} verified completed games, {missing} missing-play games excluded, {len(projections)} upcoming projections")
