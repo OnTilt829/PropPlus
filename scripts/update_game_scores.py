@@ -3,6 +3,7 @@
 import csv,datetime as dt,json,requests
 from collections import defaultdict
 from pathlib import Path
+from availability_impact import load_logs,adjustment
 OUT=Path("data");OUT.mkdir(exist_ok=True)
 SPORTS={"nba":("basketball","nba"),"nfl":("football","nfl")}
 def availability(category,league,team_id):
@@ -18,10 +19,11 @@ def availability(category,league,team_id):
    status=item.get("status") or item.get("type") or ""
    if isinstance(status,dict):status=status.get("name") or status.get("description") or ""
    name=athlete.get("displayName") or athlete.get("fullName") or ""
-   if name and status:found.append({"player":name,"status":str(status),"source":url})
+   if name and status:found.append({"player":name,"player_id":str(athlete.get("id") or ""),"status":str(status),"source":url})
   return found
 
 def main():
+ logs=load_logs()
  for sport,(category,league) in SPORTS.items():
   base=f"https://site.api.espn.com/apis/site/v2/sports/{category}/{league}/scoreboard"
   now=dt.datetime.now(dt.timezone.utc)
@@ -73,7 +75,10 @@ def main():
    hp=(h["scored"]/h["games"]+a["allowed"]/a["games"])/2
    for tid in (aid,hid):
     if tid not in injury_cache:injury_cache[tid]=availability(category,league,tid)
-   notes=json.dumps({"away":injury_cache[aid],"home":injury_cache[hid]},separators=(",",":"))
+   da,ea=adjustment(sport,aid,injury_cache[aid],logs)
+   dh,eh=adjustment(sport,hid,injury_cache[hid],logs)
+   ap+=da;hp+=dh
+   notes=json.dumps({"away":injury_cache[aid],"home":injury_cache[hid],"impact":{"away":ea,"home":eh}},separators=(",",":"))
    rows.append([when,away["team"]["displayName"],home["team"]["displayName"],round(ap,1),round(hp,1),round(ap+hp,1),a["games"],h["games"],aid,hid,notes])
   fields=["KICKOFF_UTC","AWAY","HOME","AWAY_PROJ","HOME_PROJ","PROJECTED_TOTAL","AWAY_GP","HOME_GP","AWAY_ID","HOME_ID","AVAILABILITY","AWAY_FINAL","HOME_FINAL","FINAL_TOTAL","STATUS"]
   fresh=[dict(zip(fields[:11],r)) for r in rows]
