@@ -37,7 +37,7 @@ def main():
             for e in data.get("events",[]):
                 if e.get("status",{}).get("type",{}).get("completed") and e.get("id"):
                     events[str(e["id"])]=(e.get("date","")[:10],e)
-        for event_id,(day,event) in events.items():
+        for event_id,(day,event) in sorted(events.items(),key=lambda item:item[1][0],reverse=True)[:55]:
             # Avoid repeated box-score fetches once this event has been recorded.
             # Some games have no explicit DNP information and are retried later.
             if any(r.get("EVENT_ID")==event_id for r in old.values()):continue
