@@ -23,7 +23,7 @@ def parse_report(sport,payload,url):
             athlete=entry.get("athlete") or entry.get("player") or {}
             pid=str(athlete.get("id") or "")
             name=athlete.get("displayName") or athlete.get("fullName") or ""
-            if not pid or not name:continue
+            if not name:continue
             status=entry.get("status") or entry.get("type") or ""
             if isinstance(status,dict):status=status.get("name") or status.get("description") or ""
             kind=entry.get("type") or {}
