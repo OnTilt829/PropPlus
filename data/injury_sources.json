@@ -2,7 +2,7 @@
   "nba": {
     "state": "empty_unverified",
     "records": 0,
-    "checked_at": "2026-10-28T00:28:23.657255+00:00",
+    "checked_at": "2026-10-28T00:46:58.032954+00:00",
     "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
     "response_keys": [
       "injuries",
@@ -15,12 +15,35 @@
       "displayName",
       "id",
       "injuries"
+    ],
+    "first_entry_keys": [
+      "athlete",
+      "date",
+      "details",
+      "id",
+      "longComment",
+      "shortComment",
+      "source",
+      "status",
+      "type"
+    ],
+    "first_entry_athlete_keys": [
+      "displayName",
+      "firstName",
+      "headshot",
+      "lastName",
+      "links",
+      "notes",
+      "position",
+      "shortName",
+      "status",
+      "team"
     ]
   },
   "nfl": {
     "state": "empty_unverified",
     "records": 0,
-    "checked_at": "2026-10-28T00:28:23.657255+00:00",
+    "checked_at": "2026-10-28T00:46:58.032954+00:00",
     "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
     "response_keys": [
       "injuries",
@@ -33,12 +56,35 @@
       "displayName",
       "id",
       "injuries"
+    ],
+    "first_entry_keys": [
+      "athlete",
+      "date",
+      "details",
+      "id",
+      "longComment",
+      "shortComment",
+      "source",
+      "status",
+      "type"
+    ],
+    "first_entry_athlete_keys": [
+      "displayName",
+      "firstName",
+      "headshot",
+      "lastName",
+      "links",
+      "notes",
+      "position",
+      "shortName",
+      "status",
+      "team"
     ]
   },
   "cfb": {
     "state": "empty_unverified",
     "records": 0,
-    "checked_at": "2026-10-28T00:28:23.657255+00:00",
+    "checked_at": "2026-10-28T00:46:58.032954+00:00",
     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/injuries",
     "response_keys": [
       "injuries",
@@ -51,6 +97,28 @@
       "displayName",
       "id",
       "injuries"
+    ],
+    "first_entry_keys": [
+      "athlete",
+      "date",
+      "id",
+      "longComment",
+      "shortComment",
+      "source",
+      "status",
+      "type"
+    ],
+    "first_entry_athlete_keys": [
+      "displayName",
+      "firstName",
+      "headshot",
+      "lastName",
+      "links",
+      "notes",
+      "position",
+      "shortName",
+      "status",
+      "team"
     ]
   }
 }
