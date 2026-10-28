@@ -1,20 +1,56 @@
 {
   "nba": {
-    "state": "ok",
+    "state": "empty_unverified",
     "records": 0,
-    "checked_at": "2026-10-28T00:12:30.482951+00:00",
-    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries"
+    "checked_at": "2026-10-28T00:26:09.434636+00:00",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
+    "response_keys": [
+      "injuries",
+      "season",
+      "status",
+      "timestamp"
+    ],
+    "groups": 27,
+    "first_group_keys": [
+      "displayName",
+      "id",
+      "injuries"
+    ]
   },
   "nfl": {
-    "state": "ok",
+    "state": "empty_unverified",
     "records": 0,
-    "checked_at": "2026-10-28T00:12:30.482951+00:00",
-    "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries"
+    "checked_at": "2026-10-28T00:26:09.434636+00:00",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+    "response_keys": [
+      "injuries",
+      "season",
+      "status",
+      "timestamp"
+    ],
+    "groups": 32,
+    "first_group_keys": [
+      "displayName",
+      "id",
+      "injuries"
+    ]
   },
   "cfb": {
-    "state": "ok",
+    "state": "empty_unverified",
     "records": 0,
-    "checked_at": "2026-10-28T00:12:30.482951+00:00",
-    "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/injuries"
+    "checked_at": "2026-10-28T00:26:09.434636+00:00",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/injuries",
+    "response_keys": [
+      "injuries",
+      "season",
+      "status",
+      "timestamp"
+    ],
+    "groups": 3,
+    "first_group_keys": [
+      "displayName",
+      "id",
+      "injuries"
+    ]
   }
 }
