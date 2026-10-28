@@ -17,7 +17,7 @@ def parse_report(sport,payload,url):
     rows=[]
     for group in payload["injuries"]:
         team=group.get("team") or {}
-        entries=group.get("injuries") or []
+        entries=group.get("injuries") or ([group] if group.get("athlete") else [])
         if not isinstance(entries,list):continue
         for entry in entries:
             athlete=entry.get("athlete") or {}
@@ -42,8 +42,9 @@ def collect(session=requests):
         try:
             response=session.get(url,timeout=20)
             response.raise_for_status()
-            rows=parse_report(sport,response.json(),url)
-            health[sport]={"state":"ok","records":len(rows),"checked_at":stamp,"source":url}
+            payload=response.json()
+            rows=parse_report(sport,payload,url)
+            health[sport]={"state":"ok" if rows else "empty_unverified","records":len(rows),"checked_at":stamp,"source":url,"response_keys":sorted(payload.keys()),"groups":len(payload.get("injuries",[])),"first_group_keys":sorted(payload["injuries"][0].keys()) if payload.get("injuries") and isinstance(payload["injuries"][0],dict) else []}
             report.extend(rows)
         except (requests.RequestException,ValueError,TypeError,KeyError) as exc:
             health[sport]={"state":"unavailable","error":str(exc)[:200],"checked_at":stamp,"source":url}
