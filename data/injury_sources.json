@@ -1,0 +1,20 @@
+{
+  "nba": {
+    "state": "ok",
+    "records": 0,
+    "checked_at": "2026-10-28T00:12:30.482951+00:00",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries"
+  },
+  "nfl": {
+    "state": "ok",
+    "records": 0,
+    "checked_at": "2026-10-28T00:12:30.482951+00:00",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries"
+  },
+  "cfb": {
+    "state": "ok",
+    "records": 0,
+    "checked_at": "2026-10-28T00:12:30.482951+00:00",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/injuries"
+  }
+}
