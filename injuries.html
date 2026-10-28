@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prop+ | Player Availability</title>
+<style>
+:root{color-scheme:dark;font-family:Inter,system-ui,sans-serif;background:#050505;color:#f5f5f5}
+body{margin:0}header{background:#111;border-bottom:1px solid #333;padding:22px 5vw}
+main{max-width:1250px;margin:auto;padding:26px 20px}h1{margin-bottom:8px}p,.muted{color:#b8b8b8}
+nav{display:flex;gap:10px;flex-wrap:wrap}nav a{color:#f5f5f5;background:#181818;padding:10px 15px;border:1px solid #444;border-radius:9px;text-decoration:none}nav a.active{background:#44370f;border-color:#d4af37}
+.controls{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}input,select{background:#171717;border:1px solid #555;color:white;padding:11px 13px;border-radius:8px;font:inherit}
+input{flex:1;min-width:220px}.stats{display:flex;gap:12px;flex-wrap:wrap}.stat{border:1px solid #333;border-radius:10px;padding:14px;min-width:160px;background:#111}.stat strong{font-size:26px;color:#d4af37;display:block}
+.panel{overflow:auto;border:1px solid #333;border-radius:10px}table{border-collapse:collapse;width:100%;min-width:800px;font-size:14px}th,td{padding:12px;text-align:left;border-bottom:1px solid #303030}th{background:#1a1a1a;position:sticky;top:0}
+.badge{border:1px solid #666;padding:4px 8px;border-radius:6px}.out{color:#ff9a9a}.active{color:#98e6a9}.unknown{color:#e8cb81}
+small{color:#aaa}footer{margin:22px 0;color:#aaa}
+</style></head><body><header><strong style="font-size:27px">Prop<span style="color:#d4af37">+</span></strong></header>
+<main><nav><a href="/">NBA</a><a href="/nfl.html">NFL</a><a href="/cfb.html">College Football</a><a class="active" href="/injuries.html">Player Availability</a></nav>
+<h1>Player Availability & Injury Reports</h1><p>Informational injury tracking for NBA, NFL, and college football. Reports can be delayed, outdated, or incomplete. A listing does not confirm game-day participation.</p>
+<div class="stats" id="stats"></div><p id="sourceStatus" class="muted">Loading source health…</p>
+<div class="controls"><select id="sport" aria-label="League"><option value="all">All leagues</option><option value="nba">NBA</option><option value="nfl">NFL</option><option value="cfb">College Football</option></select><select id="status" aria-label="Status"><option value="all">All statuses</option><option value="out">Out / Inactive</option><option value="other">Other statuses</option></select><input id="search" type="search" placeholder="Search player or team"></div>
+<p id="count" class="muted"></p><div class="panel"><table><thead><tr><th>League</th><th>Team</th><th>Player</th><th>Status</th><th>Reported (ET)</th><th>Data age</th><th>Source</th></tr></thead><tbody id="rows"><tr><td colspan="7">Loading…</td></tr></tbody></table></div>
+<footer>Older than 30 days is labeled stale and excluded by default. Missing player IDs are not inferred. Injury reports are independent of performance projections.</footer></main>
+<script>
+function csv(text){const lines=[];let row=[],field="",quoted=false;for(let i=0;i<text.length;i++){const c=text[i];if(c==='"'){if(quoted&&text[i+1]==='"'){field+='"';i++}else quoted=!quoted}else if(c===','&&!quoted){row.push(field);field=""}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&text[i+1]==='\n')i++;row.push(field);if(row.some(x=>x!==""))lines.push(row);row=[];field=""}else field+=c}if(field||row.length){row.push(field);lines.push(row)}const keys=lines.shift()||[];return lines.map(r=>Object.fromEntries(keys.map((k,i)=>[k,r[i]||""])));}
+const escapeHtml=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const urlOk=s=>/^https:\/\/site\.api\.espn\.com\//.test(s||"");
+const age=r=>{const d=new Date(r.REPORTED_AT);return isNaN(d)?Infinity:Math.max(0,(Date.now()-d.getTime())/86400000)};
+let records=[],health={};
+function render(){
+ const sport=document.getElementById("sport").value,st=document.getElementById("status").value,q=document.getElementById("search").value.toLowerCase();
+ const active=records.filter(r=>age(r)<=30),visible=active.filter(r=>(sport==="all"||r.SPORT===sport)&&(!q||(r.PLAYER+" "+r.TEAM).toLowerCase().includes(q))&&(st==="all"||(st==="out"?/^(out|inactive|ruled out|injured reserve|ir)$/i.test(r.STATUS):!/^(out|inactive|ruled out|injured reserve|ir)$/i.test(r.STATUS))));
+ document.getElementById("stats").innerHTML=["nba","nfl","cfb"].map(k=>'<div class="stat"><small>'+k.toUpperCase()+' current reports</small><strong>'+active.filter(r=>r.SPORT===k).length+'</strong></div>').join("")+'<div class="stat"><small>Stale excluded</small><strong>'+records.filter(r=>age(r)>30).length+'</strong></div>';
+ document.getElementById("count").textContent=visible.length+" matching records · "+active.length+" reports dated within 30 days";
+ document.getElementById("rows").innerHTML=visible.length?visible.map(r=>{const d=new Date(r.REPORTED_AT);const label=isNaN(d)?"Unknown":new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",dateStyle:"medium",timeStyle:"short"}).format(d);const isOut=/^(out|inactive|ruled out|injured reserve|ir)$/i.test(r.STATUS);return '<tr><td>'+escapeHtml(r.SPORT.toUpperCase())+'</td><td>'+escapeHtml(r.TEAM)+'</td><td>'+escapeHtml(r.PLAYER)+'</td><td><span class="badge '+(isOut?"out":/active|available/i.test(r.STATUS)?"active":"unknown")+'">'+escapeHtml(r.STATUS||"Unspecified")+'</span></td><td>'+escapeHtml(label)+'</td><td>'+Math.floor(age(r))+' days</td><td>'+(urlOk(r.SOURCE)?'<a style="color:#d4af37" href="'+escapeHtml(r.SOURCE)+'" target="_blank" rel="noopener noreferrer">ESPN</a>':"—")+'</td></tr>'}).join(""):'<tr><td colspan="7">No matching current reports. This does not confirm everyone is healthy.</td></tr>';
+}
+Promise.all([fetch("data/injury_reports.csv?v="+Date.now()).then(r=>{if(!r.ok)throw Error("Report unavailable");return r.text()}),fetch("data/injury_sources.json?v="+Date.now()).then(r=>{if(!r.ok)throw Error("Source status unavailable");return r.json()})]).then(([data,status])=>{records=csv(data);health=status;document.getElementById("sourceStatus").textContent=["nba","nfl","cfb"].map(k=>k.toUpperCase()+": "+(health[k]?.state||"unknown")+" ("+(health[k]?.records??"?")+" source records)").join(" · ")+" · Last checked: "+(health.nba?.checked_at||"unknown");render()}).catch(e=>{document.getElementById("sourceStatus").textContent=e.message;document.getElementById("rows").innerHTML='<tr><td colspan="7">Unable to load injury reports.</td></tr>'});
+["sport","status","search"].forEach(id=>document.getElementById(id).addEventListener(id==="search"?"input":"change",render));
+</script></body></html>
