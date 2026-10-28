@@ -1,0 +1,34 @@
+name: Refresh Informational Injury Reports
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 12 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: informational-injury-reports
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Test injury report parsing
+        run: python -m unittest discover -s tests -p test_injury_reports.py
+      - name: Fetch league-wide availability information
+        run: python scripts/update_injury_reports.py
+      - name: Publish informational injury data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/injury_reports.csv data/injury_sources.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh informational injury reports"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
