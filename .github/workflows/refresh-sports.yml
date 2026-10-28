@@ -45,6 +45,9 @@ jobs:
       - name: Collect verified player participation
         if: steps.time.outputs.run == 'true'
         run: python scripts/update_player_participation.py
+      - name: Collect historical NBA rotations and actual minutes
+        if: steps.time.outputs.run == 'true'
+        run: python scripts/update_nba_rotation_history.py
       - name: Validate injury impact estimator
         if: steps.time.outputs.run == 'true'
         run: python -m unittest discover -s tests -p test_availability_impact.py
@@ -65,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/player_game_logs.csv data/nba_game_scores.csv data/nfl_game_scores.csv data/cfb_projections.csv data/cfb_metadata.json data/score_archive_audit.json
+          git add data/nba_rotation_history.csv data/player_game_logs.csv data/nba_game_scores.csv data/nfl_game_scores.csv data/cfb_projections.csv data/cfb_metadata.json data/score_archive_audit.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh scheduled PropPlus scores"
             git pull --rebase origin main
