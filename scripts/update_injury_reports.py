@@ -44,7 +44,7 @@ def collect(session=requests):
             response.raise_for_status()
             payload=response.json()
             rows=parse_report(sport,payload,url)
-            health[sport]={"state":"ok" if rows else "empty_unverified","records":len(rows),"checked_at":stamp,"source":url,"response_keys":sorted(payload.keys()),"groups":len(payload.get("injuries",[])),"first_group_keys":sorted(payload["injuries"][0].keys()) if payload.get("injuries") and isinstance(payload["injuries"][0],dict) else []}
+            health[sport]={"state":"ok" if rows else "empty_unverified","records":len(rows),"checked_at":stamp,"source":url,"response_keys":sorted(payload.keys()),"groups":len(payload.get("injuries",[])),"first_group_keys":sorted(payload["injuries"][0].keys()) if payload.get("injuries") and isinstance(payload["injuries"][0],dict) else [], "first_entry_keys":sorted(payload["injuries"][0]["injuries"][0].keys()) if payload.get("injuries") and isinstance(payload["injuries"][0],dict) and isinstance(payload["injuries"][0].get("injuries"),list) and payload["injuries"][0]["injuries"] and isinstance(payload["injuries"][0]["injuries"][0],dict) else [], "first_entry_athlete_keys":sorted(payload["injuries"][0]["injuries"][0].get("athlete",{}).keys()) if payload.get("injuries") and isinstance(payload["injuries"][0],dict) and isinstance(payload["injuries"][0].get("injuries"),list) and payload["injuries"][0]["injuries"] and isinstance(payload["injuries"][0]["injuries"][0].get("athlete"),dict) else []}
             report.extend(rows)
         except (requests.RequestException,ValueError,TypeError,KeyError) as exc:
             health[sport]={"state":"unavailable","error":str(exc)[:200],"checked_at":stamp,"source":url}
