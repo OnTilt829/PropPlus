@@ -1,6 +1,9 @@
 name: Refresh College Football Analytics
 on:
   workflow_dispatch:
+  schedule:
+    # 8 AM and noon Eastern during daylight saving time; 9 AM and 1 PM in winter.
+    - cron: '0 12,16 * * *'
 permissions:
   contents: write
 concurrency:
