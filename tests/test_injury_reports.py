@@ -9,6 +9,12 @@ class InjuryReportTests(unittest.TestCase):
         self.assertEqual(rows[0]["PLAYER_ID"],"42")
         self.assertEqual(rows[0]["TEAM_ID"],"9")
         self.assertEqual(rows[0]["STATUS"],"Questionable")
+    def test_espn_top_level_team_group(self):
+        payload={"injuries":[{"id":"24","displayName":"Sample Team","injuries":[{"athlete":{"id":"812","displayName":"Sample Player"},"status":"Out"}]}]}
+        rows=parse_report("nfl",payload,"source")
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]["TEAM_ID"],"24")
+        self.assertEqual(rows[0]["TEAM"],"Sample Team")
     def test_empty_valid_report(self):
         self.assertEqual(parse_report("nfl",{"injuries":[]},"source"),[])
     def test_malformed_report_is_not_healthy(self):
