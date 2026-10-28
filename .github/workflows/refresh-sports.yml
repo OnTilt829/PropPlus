@@ -35,7 +35,7 @@ jobs:
           now=datetime.datetime.now(ZoneInfo("America/New_York"))
           target=[(8,0),(18,0)] if now.weekday()<5 else [(8,0),(11,30)]
           # GitHub scheduled workflows may start late; allow 20-minute delay.
-          active=any(0 <= (now.hour*60+now.minute)-(h*60+m) <= 20 for h,m in target)
+          active=True  # Every scheduled trigger runs, even if GitHub starts it late.
           if os.getenv("EVENT_NAME")=="workflow_dispatch":active=True
           with open(os.environ["GITHUB_OUTPUT"],"a") as f:f.write(f"run={'true' if active else 'false'}\n")
           print("Eastern now:",now,"run:",active)
@@ -54,6 +54,9 @@ jobs:
       - name: Refresh college football projections
         if: steps.time.outputs.run == 'true'
         run: python scripts/update_cfb.py
+      - name: Reconcile completed CFB and NFL scores
+        if: steps.time.outputs.run == 'true'
+        run: python scripts/reconcile_final_scores.py
       - name: Publish score projections
         if: steps.time.outputs.run == 'true'
         run: |
