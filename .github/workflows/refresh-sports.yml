@@ -57,12 +57,15 @@ jobs:
       - name: Reconcile completed CFB and NFL scores
         if: steps.time.outputs.run == 'true'
         run: python scripts/reconcile_final_scores.py
+      - name: Audit CFB and NFL scoreboard archives
+        if: steps.time.outputs.run == 'true'
+        run: python scripts/audit_score_archive.py
       - name: Publish score projections
         if: steps.time.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/player_game_logs.csv data/nba_game_scores.csv data/nfl_game_scores.csv data/cfb_projections.csv data/cfb_metadata.json
+          git add data/player_game_logs.csv data/nba_game_scores.csv data/nfl_game_scores.csv data/cfb_projections.csv data/cfb_metadata.json data/score_archive_audit.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh scheduled PropPlus scores"
             git pull --rebase origin main
