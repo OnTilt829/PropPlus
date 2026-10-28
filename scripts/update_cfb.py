@@ -6,6 +6,7 @@ import csv, datetime as dt, json, os, time
 from collections import defaultdict
 from pathlib import Path
 import requests
+from availability_impact import load_logs,adjustment
 
 YEAR=int(os.getenv("CFB_SEASON",dt.date.today().year))
 BASE="https://site.api.espn.com/apis/site/v2/sports/football/college-football"
@@ -72,7 +73,7 @@ def injury_report(team_id):
         status=item.get("status") or item.get("type") or ""
         if isinstance(status,dict):status=status.get("name") or status.get("description") or ""
         name=athlete.get("displayName") or athlete.get("fullName") or ""
-        if name and status:result.append({"player":name,"status":str(status),"source":url})
+        if name and status:result.append({"player":name,"player_id":str(athlete.get("id") or ""),"status":str(status),"source":url})
     return result
 
 def main():
@@ -121,6 +122,7 @@ def main():
         a["points"]+=g["AWAY_PTS"];a["plays"]+=g["AWAY_PLAYS"];a["allowed"]+=g["HOME_PTS"];a["defplays"]+=g["HOME_PLAYS"];a["games"]+=1
         h["points"]+=g["HOME_PTS"];h["plays"]+=g["HOME_PLAYS"];h["allowed"]+=g["AWAY_PTS"];h["defplays"]+=g["AWAY_PLAYS"];h["games"]+=1
     injury_cache={}
+    player_logs=load_logs()
     projections=[]
     for g in sorted(future,key=lambda x:x["DATE"]):
         a=teamlog.get(g["AWAY_ID"]);h=teamlog.get(g["HOME_ID"])
@@ -130,7 +132,10 @@ def main():
         home=((h["points"]/h["plays"]+a["allowed"]/a["defplays"])/2)*(h["plays"]/h["games"])
         for tid in (g["AWAY_ID"],g["HOME_ID"]):
             if tid not in injury_cache:injury_cache[tid]=injury_report(tid)
-        availability=json.dumps({"away":injury_cache[g["AWAY_ID"]],"home":injury_cache[g["HOME_ID"]]},separators=(",",":"))
+        da,ea=adjustment("cfb",g["AWAY_ID"],injury_cache[g["AWAY_ID"]],player_logs)
+        dh,eh=adjustment("cfb",g["HOME_ID"],injury_cache[g["HOME_ID"]],player_logs)
+        away+=da;home+=dh
+        availability=json.dumps({"away":injury_cache[g["AWAY_ID"]],"home":injury_cache[g["HOME_ID"]],"impact":{"away":ea,"home":eh}},separators=(",",":"))
         projections.append({"AVAILABILITY":availability,"DATE":g["DATE"],"AWAY":g["AWAY"],"HOME":g["HOME"],"AWAY_PROJ":round(away,1),"HOME_PROJ":round(home,1),"PROJECTED_TOTAL":round(away+home,1),"AWAY_GP":a["games"],"HOME_GP":h["games"],"AWAY_ID":g["AWAY_ID"],"HOME_ID":g["HOME_ID"],"KICKOFF_UTC":g["KICKOFF_UTC"]})
     current={(r["AWAY_ID"],r["HOME_ID"],r["DATE"]):r for r in projections}
     for key,prior in previous.items():
