@@ -1,26 +1,34 @@
 {
-  "generated_at": "2026-11-09T16:52:17.817199+00:00",
+  "generated_at": "2026-11-09T22:34:19.605565+00:00",
   "grace_hours": 36,
   "sports": {
     "cfb": {
       "sport": "cfb",
       "file": "data/cfb_projections.csv",
-      "rows": 338,
+      "rows": 344,
       "status_counts": {
         "FINAL": 121,
-        "SCHEDULED": 217
+        "SCHEDULED": 223
       },
       "issues": {}
     },
     "nfl": {
       "sport": "nfl",
       "file": "data/nfl_game_scores.csv",
-      "rows": 56,
+      "rows": 58,
       "status_counts": {
         "FINAL": 28,
-        "SCHEDULED": 28
+        "SCHEDULED": 30
       },
-      "issues": {}
+      "issues": {
+        "duplicate_games": {
+          "count": 2,
+          "examples": [
+            "line 56: Jacksonville Jaguars at New York Giants (2026-11-22T21:25Z); first seen on line 53",
+            "line 57: Pittsburgh Steelers at Philadelphia Eagles (2026-11-22T21:25Z); first seen on line 50"
+          ]
+        }
+      }
     }
   }
 }
