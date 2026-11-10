@@ -1,8 +1,8 @@
 {
   "nba": {
     "state": "ok",
-    "records": 95,
-    "checked_at": "2026-11-09T13:25:01.027748+00:00",
+    "records": 94,
+    "checked_at": "2026-11-10T13:14:10.840349+00:00",
     "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
     "response_keys": [
       "injuries",
@@ -10,7 +10,7 @@
       "status",
       "timestamp"
     ],
-    "groups": 28,
+    "groups": 29,
     "first_group_keys": [
       "displayName",
       "id",
@@ -43,7 +43,7 @@
   "nfl": {
     "state": "ok",
     "records": 800,
-    "checked_at": "2026-11-09T13:25:01.027748+00:00",
+    "checked_at": "2026-11-10T13:14:10.840349+00:00",
     "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
     "response_keys": [
       "injuries",
@@ -83,7 +83,7 @@
   "cfb": {
     "state": "ok",
     "records": 3,
-    "checked_at": "2026-11-09T13:25:01.027748+00:00",
+    "checked_at": "2026-11-10T13:14:10.840349+00:00",
     "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/injuries",
     "response_keys": [
       "injuries",
