@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-11T16:44:05.102186+00:00",
+  "generated_at": "2026-11-11T22:42:46.615922+00:00",
   "grace_hours": 36,
   "sports": {
     "cfb": {
       "sport": "cfb",
       "file": "data/cfb_projections.csv",
-      "rows": 346,
+      "rows": 348,
       "status_counts": {
         "FINAL": 124,
-        "SCHEDULED": 222
+        "SCHEDULED": 224
       },
       "issues": {}
     },
