@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-15T17:11:55.722882+00:00",
+  "generated_at": "2026-11-16T14:39:47.878919+00:00",
   "grace_hours": 36,
   "sports": {
     "cfb": {
       "sport": "cfb",
       "file": "data/cfb_projections.csv",
-      "rows": 355,
+      "rows": 357,
       "status_counts": {
-        "FINAL": 203,
+        "FINAL": 205,
         "SCHEDULED": 152
       },
       "issues": {}
@@ -17,8 +17,8 @@
       "file": "data/nfl_game_scores.csv",
       "rows": 73,
       "status_counts": {
-        "FINAL": 30,
-        "SCHEDULED": 43
+        "FINAL": 42,
+        "SCHEDULED": 31
       },
       "issues": {
         "duplicate_games": {
