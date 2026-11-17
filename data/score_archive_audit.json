@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:51:02.102666+00:00",
+  "generated_at": "2026-11-17T22:42:19.076470+00:00",
   "grace_hours": 36,
   "sports": {
     "cfb": {
@@ -15,17 +15,18 @@
     "nfl": {
       "sport": "nfl",
       "file": "data/nfl_game_scores.csv",
-      "rows": 74,
+      "rows": 77,
       "status_counts": {
         "FINAL": 43,
-        "SCHEDULED": 31
+        "SCHEDULED": 34
       },
       "issues": {
         "duplicate_games": {
-          "count": 2,
+          "count": 3,
           "examples": [
             "line 56: Jacksonville Jaguars at New York Giants (2026-11-22T21:25Z); first seen on line 53",
-            "line 57: Pittsburgh Steelers at Philadelphia Eagles (2026-11-22T21:25Z); first seen on line 50"
+            "line 57: Pittsburgh Steelers at Philadelphia Eagles (2026-11-22T21:25Z); first seen on line 50",
+            "line 73: Tennessee Titans at Jacksonville Jaguars (2026-11-29T21:05Z); first seen on line 66"
           ]
         }
       }
