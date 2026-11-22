@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:34:04.722426+00:00",
+  "generated_at": "2026-11-22T12:40:23.798024+00:00",
   "grace_hours": 36,
   "sports": {
     "cfb": {
@@ -15,10 +15,10 @@
     "nfl": {
       "sport": "nfl",
       "file": "data/nfl_game_scores.csv",
-      "rows": 89,
+      "rows": 90,
       "status_counts": {
         "FINAL": 44,
-        "SCHEDULED": 45
+        "SCHEDULED": 46
       },
       "issues": {
         "duplicate_games": {
