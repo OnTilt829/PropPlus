@@ -8,14 +8,14 @@ nba,1,Atlanta Hawks,,Henri Veesaar,Out,out,2026-09-21T19:50Z,https://site.api.es
 nba,1,Atlanta Hawks,,Jock Landale,Out,out,2026-11-21T22:12Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,1,Atlanta Hawks,,Mouhamed Gueye,Out,out,2026-11-13T00:06Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,2,Boston Celtics,,Mitchell Robinson,Out,out,2026-11-23T21:09Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,17,Brooklyn Nets,,Moritz Wagner,Out,out,2026-11-26T02:48Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,17,Brooklyn Nets,,Nolan Traore,Out,out,2026-11-23T15:22Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,30,Charlotte Hornets,,Dennis Schroder,Out,out,2026-11-24T22:32Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,30,Charlotte Hornets,,Grayson Allen,Out,out,2026-11-24T22:29Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,30,Charlotte Hornets,,Grayson Allen,Out,out,2026-11-25T17:39Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,30,Charlotte Hornets,,Kon Knueppel,Out,out,2026-11-08T22:31Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,30,Charlotte Hornets,,Ryan Kalkbrenner,Day-To-Day,day-to-day,2026-11-24T22:33Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,30,Charlotte Hornets,,Sion James,Day-To-Day,day-to-day,2026-11-24T22:30Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,30,Charlotte Hornets,,Ryan Kalkbrenner,Day-To-Day,day-to-day,2026-11-26T05:30Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,4,Chicago Bulls,,Caleb Wilson,Out,out,2026-11-12T21:35Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,4,Chicago Bulls,,Jalen Smith,Day-To-Day,day-to-day,2026-11-24T18:21Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,4,Chicago Bulls,,Jalen Smith,Day-To-Day,day-to-day,2026-11-26T05:29Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,4,Chicago Bulls,,Norman Powell,Out,out,2026-11-22T15:25Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,5,Cleveland Cavaliers,,Evan Mobley,Out,out,2026-11-16T22:06Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,5,Cleveland Cavaliers,,Nae'Qwan Tomlin,Out,out,2026-11-17T22:18Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
@@ -23,17 +23,15 @@ nba,6,Dallas Mavericks,,Dereck Lively II,Out,out,2026-11-20T19:31Z,https://site.
 nba,6,Dallas Mavericks,,Sergio de Larrea,Out,out,2026-11-17T22:53Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,6,Dallas Mavericks,,Tarik Biberovic,Out,out,2026-11-17T22:42Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,6,Dallas Mavericks,,Tobi Lawal,Out,out,2026-11-23T23:25Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,8,Detroit Pistons,,Cade Cunningham,Out,out,2026-11-24T23:36Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,8,Detroit Pistons,,Cade Cunningham,Day-To-Day,day-to-day,2026-11-25T19:00Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,8,Detroit Pistons,,Duncan Robinson,Out,out,2026-11-24T18:30Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,8,Detroit Pistons,,Ebuka Okorie,Out,out,2026-11-24T18:37Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,8,Detroit Pistons,,Jalen Duren,Out,out,2026-11-24T18:27Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,8,Detroit Pistons,,Taurean Prince,Out,out,2026-11-24T18:33Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,9,Golden State Warriors,,Brandon Williams,Out,out,2026-11-24T20:58Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,9,Golden State Warriors,,Jimmy Butler III,Out,out,2026-10-16T16:11Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,9,Golden State Warriors,,Kristaps Porzingis,Out,out,2026-11-06T21:26Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,9,Golden State Warriors,,Moses Moody,Out,out,2026-10-16T16:14Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,9,Golden State Warriors,,Stephen Curry,Out,out,2026-11-12T17:03Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,9,Golden State Warriors,,Yaxel Lendeborg,Day-To-Day,day-to-day,2026-11-24T23:20Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,9,Golden State Warriors,,Stephen Curry,Out,out,2026-11-26T01:36Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,11,Indiana Pacers,,Aaron Nesmith,Day-To-Day,day-to-day,2026-11-24T04:40Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,11,Indiana Pacers,,Ben Sheppard,Out,out,2026-10-28T21:41Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,11,Indiana Pacers,,Larry Nance Jr.,Day-To-Day,day-to-day,2026-11-24T02:00Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
@@ -41,24 +39,25 @@ nba,11,Indiana Pacers,,T.J. McConnell,Day-To-Day,day-to-day,2026-11-24T19:43Z,ht
 nba,11,Indiana Pacers,,Tyrese Haliburton,Out,out,2026-11-24T19:41Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,12,LA Clippers,,Bradley Beal,Out,out,2026-10-15T01:03Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,12,LA Clippers,,Jordan Miller,Out,out,2026-08-26T20:04Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,13,Los Angeles Lakers,,Austin Reaves,Out,out,2026-11-24T01:31Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,13,Los Angeles Lakers,,Austin Reaves,Out,out,2026-11-25T20:33Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,29,Memphis Grizzlies,,Cameron Boozer,Out,out,2026-11-23T23:07Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,29,Memphis Grizzlies,,GG Jackson,Out,out,2026-11-17T23:18Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,29,Memphis Grizzlies,,Jerami Grant,Out,out,2026-11-23T04:04Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,29,Memphis Grizzlies,,Richie Saunders,Out,out,2026-11-07T17:24Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,29,Memphis Grizzlies,,Scotty Pippen Jr.,Out,out,2026-11-24T23:04Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,14,Miami Heat,,Giannis Antetokounmpo,Day-To-Day,day-to-day,2026-11-24T22:07Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,29,Memphis Grizzlies,,Zach Edey,Day-To-Day,day-to-day,2026-11-26T03:43Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,16,Minnesota Timberwolves,,Anthony Edwards,Out,out,2026-10-29T18:33Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,16,Minnesota Timberwolves,,Donte DiVincenzo,Out,out,2026-11-24T17:10Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,16,Minnesota Timberwolves,,Jaylen Clark,Out,out,2026-11-15T22:40Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,16,Minnesota Timberwolves,,LaMelo Ball,Day-To-Day,day-to-day,2026-11-26T03:37Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,3,New Orleans Pelicans,,Bennedict Mathurin,Out,out,2026-11-19T21:07Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,3,New Orleans Pelicans,,Dejounte Murray,Out,out,2026-11-13T20:19Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,3,New Orleans Pelicans,,Julian Reese,Day-To-Day,day-to-day,2026-11-25T16:11Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,3,New Orleans Pelicans,,Trendon Watford,Out,out,2026-11-21T18:21Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,18,New York Knicks,,Andre Drummond,Day-To-Day,day-to-day,2026-11-26T03:40Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,18,New York Knicks,,Jordan Clarkson,Out,out,2026-11-24T21:56Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,18,New York Knicks,,Josh Hart,Day-To-Day,day-to-day,2026-11-24T21:54Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,18,New York Knicks,,Karl-Anthony Towns,Day-To-Day,day-to-day,2026-11-24T21:50Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,18,New York Knicks,,Miles McBride,Day-To-Day,day-to-day,2026-11-24T21:56Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,18,New York Knicks,,OG Anunoby,Out,out,2026-11-24T21:53Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,18,New York Knicks,,Miles McBride,Day-To-Day,day-to-day,2026-11-26T05:31Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,18,New York Knicks,,OG Anunoby,Out,out,2026-11-25T23:19Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,25,Oklahoma City Thunder,,Aday Mara,Out,out,2026-11-24T23:19Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,25,Oklahoma City Thunder,,Cason Wallace,Out,out,2026-10-31T01:16Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,25,Oklahoma City Thunder,,Chet Holmgren,Out,out,2026-10-31T01:02Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
@@ -71,19 +70,20 @@ nba,19,Orlando Magic,,Jonathan Isaac,Out,out,2026-11-21T21:09Z,https://site.api.
 nba,19,Orlando Magic,,Noah Penda,Out,out,2026-11-14T17:33Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,19,Orlando Magic,,Paolo Banchero,Out,out,2026-10-24T16:47Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,20,Philadelphia 76ers,,Ariel Hukporti,Out,out,2026-10-06T19:17Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,20,Philadelphia 76ers,,Joel Embiid,Day-To-Day,day-to-day,2026-11-24T22:09Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,20,Philadelphia 76ers,,Jaylen Brown,Day-To-Day,day-to-day,2026-11-26T01:06Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,20,Philadelphia 76ers,,Joel Embiid,Day-To-Day,day-to-day,2026-11-26T01:06Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,21,Phoenix Suns,,Mark Williams,Out,out,2026-09-11T16:03Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,22,Portland Trail Blazers,,Chris Youngblood,Out,out,2026-11-20T22:18Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,22,Portland Trail Blazers,,Ja Morant,Out,out,2026-11-08T02:18Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,22,Portland Trail Blazers,,Shaedon Sharpe,Out,out,2026-08-24T20:23Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,22,Portland Trail Blazers,,Vit Krejci,Out,out,2026-11-11T19:56Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,23,Sacramento Kings,,Ben Simmons,Out,out,2026-10-21T04:22Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,23,Sacramento Kings,,Maxime Raynaud,Out,out,2026-11-25T04:21Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,24,San Antonio Spurs,,De'Aaron Fox,Day-To-Day,day-to-day,2026-11-25T01:27Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,23,Sacramento Kings,,Maxime Raynaud,Out,out,2026-11-25T21:38Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,23,Sacramento Kings,,Zach LaVine,Day-To-Day,day-to-day,2026-11-26T05:33Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
+nba,24,San Antonio Spurs,,De'Aaron Fox,Day-To-Day,day-to-day,2026-11-26T06:01Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,24,San Antonio Spurs,,Dylan Harper,Out,out,2026-11-19T20:07Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,24,San Antonio Spurs,,Jayden Quaintance,Out,out,2026-10-05T21:43Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,24,San Antonio Spurs,,Tobias Harris,Out,out,2026-11-16T19:26Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-nba,24,San Antonio Spurs,,Victor Wembanyama,Day-To-Day,day-to-day,2026-11-25T01:23Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,28,Toronto Raptors,,Kawhi Leonard,Out,out,2026-11-24T21:15Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,28,Toronto Raptors,,Nate Bittle,Out,out,2026-11-22T21:13Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
 nba,28,Toronto Raptors,,RJ Barrett,Out,out,2026-11-19T21:13Z,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
@@ -98,7 +98,7 @@ nba,27,Washington Wizards,,Tristan Vukcevic,Out,out,2026-11-23T22:10Z,https://si
 nfl,22,Arizona Cardinals,,Andrew Billings,Active,active,2026-11-23T15:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Bam Knight,Active,active,2026-11-22T23:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Budda Baker,Active,active,2026-11-25T02:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,22,Arizona Cardinals,,Carson Beck,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,22,Arizona Cardinals,,Carson Beck,Questionable,questionable,2026-11-25T19:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Chad Ryland,Active,active,2026-11-24T00:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Cody Simon,Questionable,questionable,2026-11-22T20:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Devin Duvernay,Active,active,2026-11-24T03:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -107,9 +107,10 @@ nfl,22,Arizona Cardinals,,Harrison Wallace III,Active,active,2026-11-24T00:47Z,h
 nfl,22,Arizona Cardinals,,Hjalte Froholdt,Active,active,2026-11-21T01:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Hunter Long,Active,active,2026-11-23T16:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Jack Gibbens,Active,active,2026-11-25T02:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,22,Arizona Cardinals,,Jeremiyah Love,Injured Reserve,Injured Reserve,2026-11-23T22:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,22,Arizona Cardinals,,Jeremiyah Love,Injured Reserve,Injured Reserve,2026-11-25T19:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Jon Gaines II,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,22,Arizona Cardinals,,Josh Johnson,Active,active,2026-11-22T23:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,22,Arizona Cardinals,,Josh Johnson,Active,active,2026-11-25T19:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,22,Arizona Cardinals,,Kedon Slovis,Active,active,2026-11-25T21:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Kingsley Eguakun,Active,active,2026-11-23T15:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Mack Wilson Sr.,Active,active,2026-11-25T02:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Reggie Virgil,Active,active,2026-11-24T03:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -118,65 +119,64 @@ nfl,22,Arizona Cardinals,,Starling Thomas V,Active,active,2026-11-23T15:17Z,http
 nfl,22,Arizona Cardinals,,Teagan Quitoriano,Active,active,2026-11-23T16:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Trey McBride,Active,active,2026-11-22T23:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Tyler Allgeier,Active,active,2026-11-22T23:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,22,Arizona Cardinals,,Zachary Carter,Injured Reserve,Injured Reserve,2026-11-21T01:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,22,Arizona Cardinals,,Zay Jones,Active,active,2026-11-24T00:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,1,Atlanta Falcons,,Andrew Vorhees,Active,active,2026-11-11T00:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Andy Dalton,Active,active,2026-11-16T17:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Austin Hooper,Active,active,2026-11-16T18:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Avieon Terrell,Active,active,2026-11-16T17:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Bijan Robinson,Active,active,2026-11-15T22:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,1,Atlanta Falcons,,Billy Bowman Jr.,Active,active,2026-11-09T20:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,1,Atlanta Falcons,,Billy Bowman Jr.,Questionable,questionable,2026-11-25T21:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,C.J. Henderson,Active,active,2026-11-13T22:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Cameron Thomas,Active,active,2026-11-13T22:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Cameron Williams,Active,active,2026-11-16T17:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,1,Atlanta Falcons,,DeMarcco Hellams,Active,active,2026-11-19T03:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,1,Atlanta Falcons,,Divine Deablo,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,1,Atlanta Falcons,,DeMarcco Hellams,Questionable,questionable,2026-11-25T21:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,1,Atlanta Falcons,,Divine Deablo,Active,active,2026-11-26T01:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Drake London,Active,active,2026-11-16T18:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Gervon Dexter Sr.,Active,active,2026-11-15T16:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Jack Strand,Active,active,2026-11-16T17:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,1,Atlanta Falcons,,Jahan Dotson,Active,active,2026-11-17T05:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,1,Atlanta Falcons,,Jahan Dotson,Questionable,questionable,2026-11-25T22:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Jake Moody,Active,active,2026-11-17T03:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,1,Atlanta Falcons,,James Pearce Jr.,Active,active,2026-11-15T16:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,1,Atlanta Falcons,,James Pearce Jr.,Questionable,questionable,2026-11-26T01:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Josh Woods,Active,active,2026-11-15T16:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Kendal Daniels,Active,active,2026-11-13T23:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Khalil Herbert,Active,active,2026-11-18T02:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Kyle Pitts Sr.,Active,active,2026-11-15T23:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,1,Atlanta Falcons,,Matthew Bergeron,Questionable,questionable,2026-11-25T21:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Michael Penix Jr.,Active,active,2026-11-15T23:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Olamide Zaccheaus,Active,active,2026-11-18T02:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,1,Atlanta Falcons,,Robert Longerbeam,Active,active,2026-11-16T17:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,1,Atlanta Falcons,,Zachariah Branch,Questionable,questionable,2026-11-24T23:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Adam Randall,Active,active,2026-11-22T16:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Derrick Henry,Active,active,2026-11-22T21:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,1,Atlanta Falcons,,Zachariah Branch,Questionable,questionable,2026-11-25T22:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Aeneas Peebles,Questionable,questionable,2026-11-25T23:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Derrick Henry,Questionable,questionable,2026-11-25T19:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Devontez Walker,Active,active,2026-11-24T02:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Elijah Sarratt,Active,active,2026-11-22T16:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Emery Jones Jr.,Active,active,2026-11-23T15:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Ja'Kobi Lane,Active,active,2026-11-24T02:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Jacoby Brissett,Active,active,2026-11-23T00:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Jaylinn Hawkins,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Jaylinn Hawkins,Questionable,questionable,2026-11-26T02:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,John Simpson,Questionable,questionable,2026-11-25T23:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Josh Cuevas,Active,active,2026-11-24T03:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Justice Hill,Active,active,2026-11-23T00:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Kyle Hamilton,Active,active,2026-11-25T02:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Mark Andrews,Active,active,2026-11-23T00:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Marlon Humphrey,Questionable,questionable,2026-11-24T00:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Marlon Humphrey,Active,active,2026-11-26T02:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Matt Hibner,Active,active,2026-11-23T16:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Mike Green,Active,active,2026-11-25T02:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Nnamdi Madubuike,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Olaivavega Ioane,Active,active,2026-11-20T00:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Rashod Bateman,Active,active,2026-11-23T01:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Mike Green,Questionable,questionable,2026-11-26T02:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Nnamdi Madubuike,Questionable,questionable,2026-11-26T02:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Rashod Bateman,Questionable,questionable,2026-11-25T23:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Riley Patterson,Active,active,2026-11-24T00:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Roger Rosengarten,Active,active,2026-11-22T20:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Roquan Smith,Active,active,2026-11-24T05:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Travis Jones,Active,active,2026-11-25T02:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Trenton Simpson,Active,active,2026-11-25T02:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,33,Baltimore Ravens,,Trey Hendrickson,Active,active,2026-11-22T20:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,33,Baltimore Ravens,,Zay Flowers,Active,active,2026-11-23T00:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,33,Baltimore Ravens,,Zay Flowers,Questionable,questionable,2026-11-25T23:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Amani Hooker,Active,active,2026-11-24T03:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,2,Buffalo Bills,,Christian Benford,Questionable,questionable,2026-11-25T00:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,2,Buffalo Bills,,Christian Benford,Questionable,questionable,2026-11-25T22:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,DJ Moore,Active,active,2026-11-22T21:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,2,Buffalo Bills,,Dalton Kincaid,Questionable,questionable,2026-11-24T22:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,2,Buffalo Bills,,Dalton Kincaid,Questionable,questionable,2026-11-25T18:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Damar Hamlin,Active,active,2026-11-24T22:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Dawson Knox,Active,active,2026-11-23T01:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,2,Buffalo Bills,,Dorian Williams,Questionable,questionable,2026-11-24T00:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,2,Buffalo Bills,,Dorian Williams,Questionable,questionable,2026-11-25T22:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Ed Oliver,Active,active,2026-11-22T17:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Greg Rousseau,Active,active,2026-11-25T00:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Jackson Hawes,Active,active,2026-11-22T16:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -190,7 +190,7 @@ nfl,2,Buffalo Bills,,Mike Danna,Active,active,2026-11-23T15:20Z,https://site.api
 nfl,2,Buffalo Bills,,O'Cyrus Torrence,Questionable,questionable,2026-11-23T23:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Ray Davis,Active,active,2026-11-23T03:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Spencer Brown,Active,active,2026-11-24T22:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,2,Buffalo Bills,,T.J. Sanders,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,2,Buffalo Bills,,T.J. Sanders,Questionable,questionable,2026-11-26T03:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Terrel Bernard,Active,active,2026-11-24T03:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Ty Johnson,Active,active,2026-11-24T01:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,2,Buffalo Bills,,Tyler Bass,Active,active,2026-11-23T05:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -203,19 +203,19 @@ nfl,29,Carolina Panthers,,Chuba Hubbard,Active,active,2026-11-23T00:39Z,https://
 nfl,29,Carolina Panthers,,Darren Waller,Active,active,2026-11-23T01:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Devin Lloyd,Active,active,2026-11-24T05:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Feleipe Franks,Active,active,2026-11-23T16:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,29,Carolina Panthers,,Haynes King,Active,active,2026-11-22T17:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,29,Carolina Panthers,,Isaiah Simmons,Injured Reserve,Injured Reserve,2026-11-22T00:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Ja'Tavion Sanders,Active,active,2026-11-22T17:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Jalen Coker,Active,active,2026-11-23T18:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Jaycee Horn,Injured Reserve,Injured Reserve,2026-11-23T21:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,John Metchie III,Active,active,2026-11-24T02:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,29,Carolina Panthers,,Jonathon Brooks,Injured Reserve,Injured Reserve,2026-11-25T22:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Marco Wilson,Active,active,2026-11-23T15:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Mike Jackson,Active,active,2026-11-22T17:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Mitchell Evans,Active,active,2026-11-23T01:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Ryan Fitzgerald,Active,active,2026-11-24T00:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Sam Hecht,Active,active,2026-11-23T15:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,TeRah Edwards,Active,active,2026-11-23T15:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,29,Carolina Panthers,,Tetairoa McMillan,Active,active,2026-11-23T00:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,29,Carolina Panthers,,Tetairoa McMillan,Questionable,questionable,2026-11-25T20:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,29,Carolina Panthers,,Thomas Incoom,Injured Reserve,Injured Reserve,2026-11-26T02:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Tommy Tremble,Active,active,2026-11-24T02:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Trevor Etienne,Active,active,2026-11-24T02:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,29,Carolina Panthers,,Tyrel Dodson,Active,active,2026-11-25T02:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -223,9 +223,9 @@ nfl,29,Carolina Panthers,,Xavier Legette,Active,active,2026-11-24T03:24Z,https:/
 nfl,3,Chicago Bears,,Cairo Santos,Active,active,2026-11-24T00:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Caleb Williams,Active,active,2026-11-22T22:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Cam Lewis,Active,active,2026-11-24T04:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,3,Chicago Bears,,Case Keenum,Active,active,2026-11-22T16:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Colston Loveland,Active,active,2026-11-22T23:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,D'Andre Swift,Active,active,2026-11-22T22:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,3,Chicago Bears,,D'Marco Jackson,Questionable,questionable,2026-11-26T03:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Dillon Thieneman,Active,active,2026-11-24T04:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Elijah Hicks,Out,out,2026-11-25T01:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Isaac Yiadom,Active,active,2026-11-25T02:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -235,15 +235,15 @@ nfl,3,Chicago Bears,,Jordan McFadden,Active,active,2026-11-23T15:21Z,https://sit
 nfl,3,Chicago Bears,,Kalif Raymond,Active,active,2026-11-24T01:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Keyshaun Elliott,Active,active,2026-11-23T15:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Kyle Monangai,Active,active,2026-11-22T22:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,3,Chicago Bears,,Kyler Gordon,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,3,Chicago Bears,,Kyler Gordon,Out,out,2026-11-25T23:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Luther Burden III,Active,active,2026-11-22T22:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Rome Odunze,Active,active,2026-11-22T22:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,3,Chicago Bears,,Roschon Johnson,Questionable,questionable,2026-11-25T00:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,3,Chicago Bears,,Salvon Ahmed,Active,active,2026-11-24T01:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,3,Chicago Bears,,Roschon Johnson,Out,out,2026-11-25T20:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,3,Chicago Bears,,Salvon Ahmed,Active,active,2026-11-25T20:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Sam Roush,Active,active,2026-11-24T01:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Stephen Carlson,Active,active,2026-11-23T16:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Theo Benedet,Active,active,2026-11-24T22:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,3,Chicago Bears,,Tyrique Stevenson Sr.,Active,active,2026-11-19T00:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,3,Chicago Bears,,Tyrique Stevenson Sr.,Questionable,questionable,2026-11-25T23:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,3,Chicago Bears,,Zavion Thomas,Active,active,2026-11-24T01:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Andrei Iosivas,Injured Reserve,Injured Reserve,2026-11-23T22:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Brian Parker II,Active,active,2026-11-24T00:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -251,7 +251,7 @@ nfl,4,Cincinnati Bengals,,Bryan Cook,Active,active,2026-11-24T03:04Z,https://sit
 nfl,4,Cincinnati Bengals,,Cam Grandy,Active,active,2026-11-24T12:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Chase Brown,Active,active,2026-11-24T04:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Colbie Young,Active,active,2026-11-25T01:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,4,Cincinnati Bengals,,Dalton Risner,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,4,Cincinnati Bengals,,Dalton Risner,Questionable,questionable,2026-11-26T03:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Dax Hill,Active,active,2026-11-24T00:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Dohnte Meyers,Active,active,2026-11-25T00:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Drew Sample,Active,active,2026-11-25T01:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -262,7 +262,7 @@ nfl,4,Cincinnati Bengals,,Jack Endries,Active,active,2026-11-25T01:28Z,https://s
 nfl,4,Cincinnati Bengals,,Jalen Davis,Injured Reserve,Injured Reserve,2026-11-24T00:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Joe Burrow,Active,active,2026-11-24T04:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Joe Flacco,Active,active,2026-11-18T15:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,4,Cincinnati Bengals,,Kyle Dugger,Questionable,questionable,2026-11-24T00:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,4,Cincinnati Bengals,,Kyle Dugger,Active,active,2026-11-26T03:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Landon Robinson,Active,active,2026-11-24T12:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Mike Gesicki,Active,active,2026-11-24T05:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Myles Hinton,Active,active,2026-11-24T12:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -271,27 +271,27 @@ nfl,4,Cincinnati Bengals,,Samaje Perine,Active,active,2026-11-25T00:08Z,https://
 nfl,4,Cincinnati Bengals,,Swayze Bozeman,Active,active,2026-11-24T00:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,4,Cincinnati Bengals,,Tee Higgins,Active,active,2026-11-24T04:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Andre Szmyt,Active,active,2026-11-17T03:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Austin Barber,Questionable,questionable,2026-11-25T22:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Blake Whiteheart,Questionable,questionable,2026-11-26T02:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Carson Schwesinger,Active,active,2026-11-19T02:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Denzel Boston,Questionable,questionable,2026-11-24T18:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Denzel Ward,Active,active,2026-11-13T23:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Derek Barnett,Active,active,2026-11-15T18:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Denzel Boston,Questionable,questionable,2026-11-25T18:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Derek Barnett,Questionable,questionable,2026-11-25T22:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Deshaun Watson,Active,active,2026-11-16T00:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Dillon Gabriel,Active,active,2026-11-16T19:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Dylan Sampson,Active,active,2026-11-16T04:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Elgton Jenkins,Active,active,2026-11-13T21:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Harold Fannin Jr.,Active,active,2026-11-15T23:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Elgton Jenkins,Questionable,questionable,2026-11-25T22:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Harold Fannin Jr.,Questionable,questionable,2026-11-25T22:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Isaiah McGuire,Questionable,questionable,2026-11-26T01:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Jaleel McLaughlin,Active,active,2026-11-16T19:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Jerry Jeudy,Active,active,2026-11-16T01:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Justin Jefferson,Active,active,2026-11-16T19:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,KC Concepcion,Active,active,2026-11-16T01:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Malachi Corley,Active,active,2026-11-18T02:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Michael Burton,Injured Reserve,Injured Reserve,2026-11-14T18:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Noah Igbinoghene,Active,active,2026-11-16T19:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Parker Brailsford,Active,active,2026-11-16T19:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Quincy Williams,Active,active,2026-11-14T00:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Quinshon Judkins,Active,active,2026-11-15T23:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Raheim Sanders,Injured Reserve,Injured Reserve,2026-11-24T15:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,5,Cleveland Browns,,Ronnie Hickman,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Quincy Williams,Questionable,questionable,2026-11-26T02:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Raheim Sanders,Injured Reserve,Injured Reserve,2026-11-26T01:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,5,Cleveland Browns,,Ronnie Hickman,Questionable,questionable,2026-11-26T01:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Taylen Green,Active,active,2026-11-16T19:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Tylan Wallace,Active,active,2026-11-18T02:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,5,Cleveland Browns,,Tyson Campbell,Active,active,2026-11-19T02:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -301,21 +301,21 @@ nfl,6,Dallas Cowboys,,Caleb Downs,Active,active,2026-11-24T04:04Z,https://site.a
 nfl,6,Dallas Cowboys,,CeeDee Lamb,Active,active,2026-11-22T22:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,DaRon Bland,Injured Reserve,Injured Reserve,2026-11-23T21:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,Dak Prescott,Active,active,2026-11-22T22:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,Dee Winters,Questionable,questionable,2026-11-24T22:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,Devin Moore,Injured Reserve,Injured Reserve,2026-11-25T01:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,Dee Winters,Active,active,2026-11-26T00:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,Devin Moore,Injured Reserve,Injured Reserve,2026-11-26T03:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,George Pickens,Active,active,2026-11-22T22:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,Jaishawn Barham,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,Jake Ferguson,Doubtful,doubtful,2026-11-24T21:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,Jalen Thompson,Injured Reserve,Injured Reserve,2026-11-22T00:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,Jaishawn Barham,Active,active,2026-11-26T03:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,Jake Ferguson,Out,out,2026-11-25T19:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,Jalen Thompson,Questionable,questionable,2026-11-25T22:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,James Houston,Active,active,2026-11-24T03:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,James Mitchell,Active,active,2026-11-23T17:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,Jashaun Corbin,Active,active,2026-11-24T18:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,Jashaun Corbin,Active,active,2026-11-25T22:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,Javonte Williams,Active,active,2026-11-22T22:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,Jonathan Bullard,Active,active,2026-11-23T15:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,Jonathan Mingo,Questionable,questionable,2026-11-24T22:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,Jonathan Mingo,Out,out,2026-11-26T00:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,KaVontae Turpin,Active,active,2026-11-23T02:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,Luke Schoonmaker,Active,active,2026-11-24T01:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,6,Dallas Cowboys,,P.J. Locke,Questionable,questionable,2026-11-24T22:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,6,Dallas Cowboys,,P.J. Locke,Out,out,2026-11-26T00:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,Quinnen Williams,Active,active,2026-11-24T03:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,Ryan Flournoy,Active,active,2026-11-23T04:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,6,Dallas Cowboys,,Shemar James,Active,active,2026-11-24T04:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -328,7 +328,7 @@ nfl,7,Denver Broncos,,Courtland Sutton,Active,active,2026-11-23T02:32Z,https://s
 nfl,7,Denver Broncos,,Dallen Bentley,Active,active,2026-11-23T15:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Evan Engram,Active,active,2026-11-23T02:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Gavin Ortega,Active,active,2026-11-23T15:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,7,Denver Broncos,,J.K. Dobbins,Out,out,2026-11-24T21:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,7,Denver Broncos,,J.K. Dobbins,Suspension,Suspension,2026-11-25T22:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Ja'Quan McMillian,Active,active,2026-11-24T03:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Jaylen Waddle,Active,active,2026-11-23T01:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Jonah Coleman,Active,active,2026-11-23T01:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -339,9 +339,9 @@ nfl,7,Denver Broncos,,Lil'Jordan Humphrey,Active,active,2026-11-22T20:16Z,https:
 nfl,7,Denver Broncos,,Marvin Mims Jr.,Active,active,2026-11-24T02:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Nate Adkins,Active,active,2026-11-23T17:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Pat Bryant,Active,active,2026-11-23T03:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,7,Denver Broncos,,Sai'vion Jones,Questionable,questionable,2026-11-25T02:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,7,Denver Broncos,,Sai'vion Jones,Out,out,2026-11-26T03:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Sam Ehlinger,Active,active,2026-11-22T20:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,7,Denver Broncos,,Taylor Rapp,Questionable,questionable,2026-11-24T22:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,7,Denver Broncos,,Taylor Rapp,Out,out,2026-11-26T03:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Troy Franklin,Active,active,2026-11-24T03:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Tyler Badie,Injured Reserve,Injured Reserve,2026-11-24T23:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,7,Denver Broncos,,Wil Lutz,Active,active,2026-11-24T00:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -350,10 +350,10 @@ nfl,8,Detroit Lions,,Amon-Ra St. Brown,Active,active,2026-11-22T22:55Z,https://s
 nfl,8,Detroit Lions,,Brian Branch,Active,active,2026-11-24T03:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Brock Wright,Active,active,2026-11-24T01:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Cade Mays,Injured Reserve,Injured Reserve,2026-11-22T00:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,8,Detroit Lions,,Chuck Clark,Questionable,questionable,2026-11-25T00:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,8,Detroit Lions,,Chuck Clark,Questionable,questionable,2026-11-26T01:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,D.J. Reed,Active,active,2026-11-24T01:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,8,Detroit Lions,,DJ Wonnum,Questionable,questionable,2026-11-24T01:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,8,Detroit Lions,,Ennis Rakestraw Jr.,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,8,Detroit Lions,,DJ Wonnum,Questionable,questionable,2026-11-26T00:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,8,Detroit Lions,,Ennis Rakestraw Jr.,Out,out,2026-11-26T03:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Isaac TeSlaa,Active,active,2026-11-24T01:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Jacob Saylors,Active,active,2026-11-24T01:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Jahmyr Gibbs,Active,active,2026-11-22T22:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -367,145 +367,145 @@ nfl,8,Detroit Lions,,Mekhi Wingo,Active,active,2026-11-23T15:27Z,https://site.ap
 nfl,8,Detroit Lions,,Rock Ya-Sin,Active,active,2026-11-24T03:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Sam LaPorta,Active,active,2026-11-24T22:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Sione Vaki,Active,active,2026-11-24T01:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,8,Detroit Lions,,Skyler Gill-Howard,Out,out,2026-11-24T21:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,8,Detroit Lions,,Skyler Gill-Howard,Injured Reserve,Injured Reserve,2026-11-26T03:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Tyler Lacy,Active,active,2026-11-22T17:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,8,Detroit Lions,,Tyrus Wheat,Active,active,2026-11-23T15:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Bo Melton,Questionable,questionable,2026-11-24T20:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Barryn Sorrell,Questionable,questionable,2026-11-26T03:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Bo Melton,Active,active,2026-11-26T00:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,Brandon Cisse,Active,active,2026-11-24T00:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,Chris Brooks,Active,active,2026-11-17T04:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Christian Watson,Active,active,2026-11-16T00:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Donovan Jennings,Active,active,2026-11-16T19:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Christian Watson,Questionable,questionable,2026-11-26T03:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Donovan Jennings,Out,out,2026-11-25T23:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,Evan Williams,Active,active,2026-11-19T02:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,Isaiah McDuffie,Active,active,2026-11-24T18:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,J. Michael Sturdivant,Active,active,2026-11-17T04:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Jordan Love,Active,active,2026-11-16T00:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Josh Jacobs,Questionable,questionable,2026-11-24T18:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Kaleb Johnson,Active,active,2026-11-22T22:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Kevin Zeitler,Questionable,questionable,2026-11-25T01:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Jager Burton,Out,out,2026-11-25T23:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Jordan Love,Active,active,2026-11-26T05:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Josh Jacobs,Out,out,2026-11-25T23:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Kaleb Johnson,Active,active,2026-11-26T05:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Kevin Zeitler,Active,active,2026-11-26T00:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,Luke Musgrave,Out,out,2026-11-22T14:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,MarShawn Lloyd,Active,active,2026-11-16T01:03Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Matthew Golden,Active,active,2026-11-16T00:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Micah Parsons,Questionable,questionable,2026-11-24T19:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Matthew Golden,Active,active,2026-11-26T05:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Mekhi Becton,Out,out,2026-11-25T23:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Micah Parsons,Active,active,2026-11-25T23:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,Savion Williams,Active,active,2026-11-17T04:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Sean Rhyan,Questionable,questionable,2026-11-25T01:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Skyy Moore,Questionable,questionable,2026-11-24T20:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Travis Glover,Questionable,questionable,2026-11-25T01:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Trey Smack,Active,active,2026-11-17T04:03Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Tucker Kraft,Active,active,2026-11-16T00:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Tyrod Taylor,Active,active,2026-11-16T15:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Sean Rhyan,Active,active,2026-11-26T00:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Skyy Moore,Active,active,2026-11-26T00:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Travis Glover,Active,active,2026-11-26T00:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Tucker Kraft,Active,active,2026-11-26T05:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,9,Green Bay Packers,,Xavier McKinney,Active,active,2026-11-19T02:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,9,Green Bay Packers,,Zaire Franklin,Questionable,questionable,2026-11-24T20:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,9,Green Bay Packers,,Zaire Franklin,Out,out,2026-11-26T00:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Brevin Jordan,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,C.J. Stroud,Active,active,2026-11-20T04:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Dalton Schultz,Active,active,2026-11-20T05:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,34,Houston Texans,,Danielle Hunter,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,34,Houston Texans,,Danielle Hunter,Questionable,questionable,2026-11-26T01:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,David Montgomery,Active,active,2026-11-20T04:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Emari Demercado,Active,active,2026-11-20T16:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Foster Moreau,Active,active,2026-11-21T01:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Henry To'oTo'o,Active,active,2026-11-21T03:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Jake Andrews,Active,active,2026-11-23T15:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,34,Houston Texans,,Jake Hummel,Active,active,2026-11-20T00:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,34,Houston Texans,,Jake Hummel,Questionable,questionable,2026-11-25T23:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Ka'imi Fairbairn,Active,active,2026-11-21T01:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,34,Houston Texans,,Kayshon Boutte,Questionable,questionable,2026-11-20T16:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,34,Houston Texans,,Kayshon Boutte,Questionable,questionable,2026-11-25T23:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Keylan Rutledge,Questionable,questionable,2026-11-20T04:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,34,Houston Texans,,Logan Hall,Doubtful,doubtful,2026-11-25T23:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,M.J. Stewart,Active,active,2026-11-21T03:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Marlin Klein,Active,active,2026-11-20T05:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,34,Houston Texans,,Marvin Harrison Jr.,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,34,Houston Texans,,Marvin Harrison Jr.,Questionable,questionable,2026-11-25T23:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Nate Thomas,Active,active,2026-11-23T15:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Nico Collins,Active,active,2026-11-20T04:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,34,Houston Texans,,Sheldon Rankins,Questionable,questionable,2026-11-20T02:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,34,Houston Texans,,Sheldon Rankins,Questionable,questionable,2026-11-26T02:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Tank Dell,Active,active,2026-11-20T05:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,34,Houston Texans,,Trent Brown,Active,active,2026-11-20T02:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Will Anderson Jr.,Active,active,2026-11-21T03:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,34,Houston Texans,,Woody Marks,Questionable,questionable,2026-11-23T19:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,34,Houston Texans,,Woody Marks,Questionable,questionable,2026-11-25T23:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Wyatt Teller,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,34,Houston Texans,,Xavier Hutchinson,Active,active,2026-11-20T16:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,A.J. Haulcy,Active,active,2026-11-21T03:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Adetomiwa Adebawore,Active,active,2026-11-21T03:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,11,Indianapolis Colts,,Alec Pierce,Injured Reserve,Injured Reserve,2026-11-23T19:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,11,Indianapolis Colts,,Anthony Richardson Sr.,Active,active,2026-11-20T18:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,11,Indianapolis Colts,,Alec Pierce,Injured Reserve,Injured Reserve,2026-11-25T18:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Ashton Dulin,Active,active,2026-11-21T01:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Bernhard Raimann,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Bryce Boettcher,Active,active,2026-11-21T03:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,CJ Allen,Active,active,2026-11-21T03:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,11,Indianapolis Colts,,Caden Curry,Injured Reserve,Injured Reserve,2026-11-25T01:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,11,Indianapolis Colts,,Caden Curry,Injured Reserve,Injured Reserve,2026-11-26T02:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,11,Indianapolis Colts,,Cam Taylor-Britt,Injured Reserve,Injured Reserve,2026-11-26T01:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Carl Lawson,Active,active,2026-11-25T01:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,11,Indianapolis Colts,,Charvarius Ward,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,11,Indianapolis Colts,,Charvarius Ward,Questionable,questionable,2026-11-26T00:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,DJ Giddens,Active,active,2026-11-24T00:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Deion Burks,Active,active,2026-11-21T01:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,11,Indianapolis Colts,,Drew Ogletree,Active,active,2026-11-23T17:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,11,Indianapolis Colts,,Drew Ogletree,Questionable,questionable,2026-11-26T00:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Jalen Travis,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Jerry Tillery,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,11,Indianapolis Colts,,Laquon Treadwell,Active,active,2026-11-20T16:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,11,Indianapolis Colts,,Jonathan Taylor,Active,active,2026-11-25T15:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Pharaoh Brown,Active,active,2026-11-23T17:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Quez Watkins,Active,active,2026-11-21T01:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Riley Leonard,Active,active,2026-11-23T15:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,11,Indianapolis Colts,,Sauce Gardner,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,11,Indianapolis Colts,,Sauce Gardner,Active,active,2026-11-26T00:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Seth McGowan,Out,out,2026-11-23T20:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Shane Buechele,Active,active,2026-11-24T22:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Spencer Shrader,Active,active,2026-11-21T01:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,11,Indianapolis Colts,,Will Mallory,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Albert Regis,Active,active,2026-11-23T15:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,30,Jacksonville Jaguars,,Bhayshul Tuten,Questionable,questionable,2026-11-23T19:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,30,Jacksonville Jaguars,,Bhayshul Tuten,Questionable,questionable,2026-11-25T21:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Brenton Strange,Active,active,2026-11-23T03:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Brian Thomas Jr.,Active,active,2026-11-23T02:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,CJ Williams,Active,active,2026-11-23T15:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Cam Little,Active,active,2026-11-23T15:03Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Chris Rodriguez Jr.,Active,active,2026-11-23T03:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,30,Jacksonville Jaguars,,Cole Van Lanen,Questionable,questionable,2026-11-25T21:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Danny Striggow,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,30,Jacksonville Jaguars,,Dennis Gardeck,Questionable,questionable,2026-11-25T21:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Foyesade Oluokun,Active,active,2026-11-24T03:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,30,Jacksonville Jaguars,,Jakobi Meyers,Active,active,2026-11-23T02:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,30,Jacksonville Jaguars,,Jakobi Meyers,Questionable,questionable,2026-11-25T21:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Jalen Huskey,Active,active,2026-11-23T15:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,30,Jacksonville Jaguars,,Jarrian Jones,Questionable,questionable,2026-11-22T23:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,30,Jacksonville Jaguars,,Jessie Bates III,Active,active,2026-11-22T14:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,30,Jacksonville Jaguars,,Jordan Davis,Active,active,2026-11-22T14:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,30,Jacksonville Jaguars,,Jarrian Jones,Active,active,2026-11-26T01:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,30,Jacksonville Jaguars,,Jonah Monheim,Questionable,questionable,2026-11-25T21:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Josh Cameron,Active,active,2026-11-24T02:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,LeQuint Allen Jr.,Active,active,2026-11-24T03:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Matt Dickerson,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Nate Boerkircher,Active,active,2026-11-23T17:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,30,Jacksonville Jaguars,,Parker Washington,Active,active,2026-11-23T02:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,30,Jacksonville Jaguars,,Patrick Mekari,Injured Reserve,Injured Reserve,2026-11-26T02:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Quintin Morris,Active,active,2026-11-23T17:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Robert Hainsey,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Tanner Koziol,Active,active,2026-11-23T17:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Travis Hunter,Active,active,2026-11-24T01:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,30,Jacksonville Jaguars,,Trevor Lawrence,Active,active,2026-11-23T02:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,30,Jacksonville Jaguars,,Walker Little,Questionable,questionable,2026-11-23T00:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Andrew Armstrong,Active,active,2026-11-16T03:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Ben VanSumeren,Injured Reserve,Injured Reserve,2026-11-24T21:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Cyrus Allen,Active,active,2026-11-24T02:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Drue Tranquill,Active,active,2026-11-24T03:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,12,Kansas City Chiefs,,Emmett Johnson,Active,active,2026-11-22T21:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,12,Kansas City Chiefs,,Emmett Johnson,Active,active,2026-11-25T17:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Garrett Nussmeier,Active,active,2026-11-22T16:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,George Karlaftis,Active,active,2026-11-24T03:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Harrison Butker,Active,active,2026-11-23T05:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Jake Briningstool,Active,active,2026-11-18T02:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Jared Wiley,Injured Reserve,Injured Reserve,2026-11-19T01:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Jaydn Ott,Active,active,2026-11-24T01:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,12,Kansas City Chiefs,,Jaylon Moore,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,12,Kansas City Chiefs,,Jaylon Moore,Out,out,2026-11-26T02:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Josh Downs,Active,active,2026-11-22T23:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,12,Kansas City Chiefs,,Kenneth Walker III,Questionable,questionable,2026-11-24T21:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,12,Kansas City Chiefs,,Kenneth Walker III,Out,out,2026-11-25T16:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Melvin Smith Jr.,Active,active,2026-11-23T15:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Nick Bolton,Active,active,2026-11-24T03:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,12,Kansas City Chiefs,,Noah Gray,Active,active,2026-11-25T00:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,12,Kansas City Chiefs,,Noah Gray,Questionable,questionable,2026-11-25T17:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Nohl Williams,Active,active,2026-11-18T03:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,12,Kansas City Chiefs,,Omarr Norman-Lott,Questionable,questionable,2026-11-24T01:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,12,Kansas City Chiefs,,Omarr Norman-Lott,Out,out,2026-11-26T02:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Patrick Mahomes,Active,active,2026-11-22T21:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,12,Kansas City Chiefs,,Peter Woods,Active,active,2026-11-24T01:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,12,Kansas City Chiefs,,Peter Woods,Questionable,questionable,2026-11-26T02:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Rashee Rice,Active,active,2026-11-22T23:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Travis Kelce,Active,active,2026-11-22T23:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,12,Kansas City Chiefs,,Trey Smith,Questionable,questionable,2026-11-25T02:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,12,Kansas City Chiefs,,Trey Smith,Active,active,2026-11-26T02:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,12,Kansas City Chiefs,,Xavier Worthy,Active,active,2026-11-23T03:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,13,Las Vegas Raiders,,Adam Butler,Questionable,questionable,2026-11-22T23:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,13,Las Vegas Raiders,,Adam Butler,Questionable,questionable,2026-11-26T03:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Ashton Jeanty,Active,active,2026-11-23T01:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,13,Las Vegas Raiders,,Brock Bowers,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,13,Las Vegas Raiders,,Brock Bowers,Questionable,questionable,2026-11-25T21:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Bryce Cabeldue,Active,active,2026-11-23T15:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Dalton Johnson,Active,active,2026-11-23T15:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,13,Las Vegas Raiders,,Dareke Young,Questionable,questionable,2026-11-22T22:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,13,Las Vegas Raiders,,Dareke Young,Active,active,2026-11-26T01:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Dont'e Thornton Jr.,Active,active,2026-11-22T20:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Fernando Mendoza,Active,active,2026-11-23T02:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Folorunso Fatukasi,Active,active,2026-11-22T20:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Ian Thomas,Active,active,2026-11-24T02:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,13,Las Vegas Raiders,,JJ Pegues,Questionable,questionable,2026-11-23T00:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,13,Las Vegas Raiders,,JJ Pegues,Active,active,2026-11-26T03:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Jack Bech,Active,active,2026-11-23T01:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Jalen Nailor,Active,active,2026-11-23T04:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Jeremy Chinn,Active,active,2026-11-25T01:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -514,84 +514,84 @@ nfl,13,Las Vegas Raiders,,Matt Gay,Active,active,2026-11-24T00:32Z,https://site.
 nfl,13,Las Vegas Raiders,,Michael Mayer,Active,active,2026-11-23T02:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Mike Washington Jr.,Active,active,2026-11-23T02:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Nakobe Dean,Active,active,2026-11-24T04:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,13,Las Vegas Raiders,,Patrick Johnson,Injured Reserve,Injured Reserve,2026-11-26T03:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Quay Walker,Active,active,2026-11-24T04:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Tim Keenan III,Questionable,questionable,2026-11-22T23:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,13,Las Vegas Raiders,,Tonka Hemingway,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,13,Las Vegas Raiders,,Tonka Hemingway,Questionable,questionable,2026-11-26T03:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Tre Tucker,Active,active,2026-11-23T03:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,13,Las Vegas Raiders,,Trey Zuhn III,Active,active,2026-11-20T22:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,13,Las Vegas Raiders,,Tristin McCollum,Active,active,2026-11-23T15:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Akheem Mesidor,Questionable,questionable,2026-11-22T22:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Akheem Mesidor,Questionable,questionable,2026-11-26T03:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Alex Harkey,Active,active,2026-11-23T15:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Brenen Thompson,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Bud Dupree,Active,active,2026-11-21T03:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Brenen Thompson,Questionable,questionable,2026-11-26T02:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Cameron Dicker,Active,active,2026-11-24T00:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Charlie Kolar,Active,active,2026-11-24T01:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Daiyan Henley,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,David Njoku,Active,active,2026-11-24T02:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Daiyan Henley,Questionable,questionable,2026-11-26T02:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Dalvin Tomlinson,Questionable,questionable,2026-11-26T02:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,David Njoku,Questionable,questionable,2026-11-25T23:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Deane Leonard,Questionable,questionable,2026-11-25T23:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Del'Shawn Phillips,Active,active,2026-11-24T03:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Elijah Molden,Active,active,2026-11-24T03:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Isas Waxter,Active,active,2026-11-22T19:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Justin Eboigbe,Active,active,2026-11-21T00:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Justin Herbert,Questionable,questionable,2026-11-23T00:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Justin Herbert,Questionable,questionable,2026-11-25T20:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,KeAndre Lambert-Smith,Active,active,2026-11-22T19:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Keaton Mitchell,Questionable,questionable,2026-11-22T21:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Keaton Mitchell,Questionable,questionable,2026-11-25T23:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Kendall Williamson,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Kimani Vidal,Active,active,2026-11-23T01:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Ladd McConkey,Active,active,2026-11-23T01:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Omarion Hampton,Active,active,2026-11-23T01:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Oronde Gadsden,Active,active,2026-11-24T15:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Quentin Johnston,Active,active,2026-11-23T03:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Rodney Shelley,Injured Reserve,Injured Reserve,2026-11-22T00:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,24,Los Angeles Chargers,,Tarheeb Still,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Tarheeb Still,Questionable,questionable,2026-11-26T02:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Tre' Harris,Active,active,2026-11-23T01:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,24,Los Angeles Chargers,,Trey Pipkins III,Active,active,2026-11-22T20:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Brandon McManus,Active,active,2026-11-17T03:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,CJ Daniels,Active,active,2026-11-17T04:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Colby Parkinson,Active,active,2026-11-17T02:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Coleman Shelton,Out,out,2026-11-23T22:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Darryl Peterson III,Active,active,2026-11-16T19:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,24,Los Angeles Chargers,,Tuli Tuipulotu,Questionable,questionable,2026-11-26T02:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Bill Murray,Questionable,questionable,2026-11-26T12:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Blake Corum,Active,active,2026-11-26T04:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Brennan Presley,Active,active,2026-11-26T00:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Coleman Shelton,Out,out,2026-11-26T00:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Darryl Peterson III,Out,out,2026-11-26T00:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Davante Adams,Injured Reserve,Injured Reserve,2026-11-22T14:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Davis Allen,Active,active,2026-11-17T04:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Desjuan Johnson,Active,active,2026-11-16T19:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Dylan McMahon,Injured Reserve,Injured Reserve,2026-11-17T00:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Davis Allen,Questionable,questionable,2026-11-26T03:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Desjuan Johnson,Out,out,2026-11-26T00:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Joe Cardona,Active,active,2026-11-23T00:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Justin Dedich,Injured Reserve,Injured Reserve,2026-11-24T01:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Justin Dedich,Active,active,2026-11-26T00:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Kam Curl,Active,active,2026-11-24T21:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Kobie Turner,Injured Reserve,Injured Reserve,2026-11-24T00:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Konata Mumpfield,Active,active,2026-11-20T23:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Kyren Williams,Active,active,2026-11-23T21:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Kamren Kinchens,Active,active,2026-11-26T02:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Kobie Turner,Active,active,2026-11-26T00:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Konata Mumpfield,Active,active,2026-11-26T05:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Kyren Williams,Active,active,2026-11-26T04:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Larrell Murchison,Out,out,2026-11-26T00:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Matthew Stafford,Active,active,2026-11-26T05:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Max Klare,Active,active,2026-11-18T17:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Maximus Pulley,Active,active,2026-11-16T19:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Myles Garrett,Active,active,2026-11-24T21:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Puka Nacua,Injured Reserve,Injured Reserve,2026-11-22T01:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Quentin Lake,Active,active,2026-11-19T02:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Ronnie Rivers,Active,active,2026-11-17T04:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Steve Avila,Out,out,2026-11-22T01:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Steve Avila,Out,out,2026-11-26T00:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,14,Los Angeles Rams,,Terrance Ferguson,Injured Reserve,Injured Reserve,2026-11-23T19:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Tutu Atwell,Active,active,2026-11-17T04:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,14,Los Angeles Rams,,Tyler Higbee,Active,active,2026-11-17T02:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Ty Simpson,Out,out,2026-11-26T00:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,14,Los Angeles Rams,,Tyler Higbee,Questionable,questionable,2026-11-26T03:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,15,Miami Dolphins,,Austin Jackson,Questionable,questionable,2026-11-25T21:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Bradley Pinion,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Caedan Wallace,Active,active,2026-11-23T15:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,15,Miami Dolphins,,Caleb Douglas,Active,active,2026-11-23T01:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Chris Bell,Active,active,2026-11-24T02:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Christian Haynes,Active,active,2026-11-23T15:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Daniel Carlson,Active,active,2026-11-24T01:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Dante Trader Jr.,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Greg Dulcich,Active,active,2026-11-23T04:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,15,Miami Dolphins,,Jackson Woodard,Questionable,questionable,2026-11-25T21:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Jacob Rodriguez,Active,active,2026-11-24T04:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Jalen Tolbert,Active,active,2026-11-24T02:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,15,Miami Dolphins,,Jared Wayne,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,15,Miami Dolphins,,Jared Wayne,Questionable,questionable,2026-11-26T01:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Jaylen Wright,Active,active,2026-11-24T03:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,15,Miami Dolphins,,Jaylin Simpson,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,15,Miami Dolphins,,Jaylin Simpson,Active,active,2026-11-26T03:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Jordyn Brooks,Active,active,2026-11-24T04:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,15,Miami Dolphins,,JuJu Brents,Questionable,questionable,2026-11-23T20:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,15,Miami Dolphins,,JuJu Brents,Questionable,questionable,2026-11-26T01:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Justin Joly,Active,active,2026-11-23T15:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Kaytron Allen,Active,active,2026-11-24T03:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Kevin Coleman Jr.,Active,active,2026-11-24T02:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,15,Miami Dolphins,,Kyle McCord,Active,active,2026-11-22T23:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Malik Washington,Active,active,2026-11-23T04:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Malik Willis,Injured Reserve,Injured Reserve,2026-11-23T17:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,15,Miami Dolphins,,Ollie Gordon II,Active,active,2026-11-22T23:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,15,Miami Dolphins,,Rodney McGraw,Questionable,questionable,2026-11-25T21:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Ronnie Harrison Jr.,Injured Reserve,Injured Reserve,2026-11-23T20:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Will Kacmarek,Active,active,2026-11-24T16:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,15,Miami Dolphins,,Zayne Anderson,Active,active,2026-11-25T02:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -599,34 +599,34 @@ nfl,16,Minnesota Vikings,,Aaron Jones Sr.,Active,active,2026-11-23T05:01Z,https:
 nfl,16,Minnesota Vikings,,Andrew Van Ginkel,Active,active,2026-11-20T22:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Ben Yurosek,Active,active,2026-11-24T16:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Blake Cashman,Active,active,2026-11-24T05:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Bo Richter,Injured Reserve,Injured Reserve,2026-11-19T01:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Christian Darrisaw,Active,active,2026-11-23T03:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Christian Darrisaw,Questionable,questionable,2026-11-26T00:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Eric Wilson,Active,active,2026-11-25T02:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Gavin Bartholomew,Active,active,2026-11-24T03:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Isaiah Rodgers,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Harrison Smith,Questionable,questionable,2026-11-26T02:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Isaiah Rodgers,Questionable,questionable,2026-11-26T02:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Jalen Redmond,Questionable,questionable,2026-11-26T00:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Jauan Jennings,Active,active,2026-11-23T04:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Jay Ward,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Jay Ward,Active,active,2026-11-26T00:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Jeshaun Jones,Active,active,2026-11-20T22:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Jordan Addison,Doubtful,doubtful,2026-11-23T20:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Jordan Addison,Doubtful,doubtful,2026-11-25T19:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Jordan Mason,Active,active,2026-11-23T05:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Joshua Metellus,Active,active,2026-11-25T02:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Justin Jefferson,Active,active,2026-11-23T04:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Kirk Cousins,Active,active,2026-11-23T04:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Kyle Van Noy,Active,active,2026-11-19T22:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Kyler Murray,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Kyler Murray,Questionable,questionable,2026-11-25T23:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Max Brosmer,Active,active,2026-11-23T00:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Myles Price,Active,active,2026-11-24T02:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Myles Price,Questionable,questionable,2026-11-25T23:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,T.J. Hockenson,Active,active,2026-11-23T05:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Tai Felton,Active,active,2026-11-23T05:03Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,16,Minnesota Vikings,,Tyrion Ingram-Dawkins,Active,active,2026-11-18T22:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,16,Minnesota Vikings,,Tai Felton,Questionable,questionable,2026-11-25T22:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,16,Minnesota Vikings,,Will Reichard,Active,active,2026-11-24T00:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,17,New England Patriots,,A.J. Brown,Doubtful,doubtful,2026-11-24T19:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,17,New England Patriots,,A.J. Brown,Doubtful,doubtful,2026-11-25T19:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Alijah Vera-Tucker,Injured Reserve,Injured Reserve,2026-11-24T01:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Andy Borregales,Active,active,2026-11-15T19:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Behren Morton,Active,active,2026-11-16T19:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,17,New England Patriots,,Ben Brown,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,17,New England Patriots,,Brenden Schooler,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,17,New England Patriots,,Carlton Davis III,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,17,New England Patriots,,Ben Brown,Active,active,2026-11-26T03:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,17,New England Patriots,,Brenden Schooler,Active,active,2026-11-26T03:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,17,New England Patriots,,Carlton Davis III,Questionable,questionable,2026-11-26T02:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Christian Elliss,Active,active,2026-11-19T03:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Corey Kiner,Active,active,2026-11-15T18:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Dametrious Crownover,Active,active,2026-11-16T19:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -640,88 +640,88 @@ nfl,17,New England Patriots,,Kevin Byard,Active,active,2026-11-19T03:07Z,https:/
 nfl,17,New England Patriots,,Kyle Williams,Active,active,2026-11-18T02:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Lan Larison,Active,active,2026-11-18T02:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Mack Hollins,Active,active,2026-11-15T18:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,17,New England Patriots,,Reggie Gilliam,Questionable,questionable,2026-11-26T00:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Rhamondre Stevenson,Active,active,2026-11-15T18:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,17,New England Patriots,,Robert Spillane,Questionable,questionable,2026-11-15T17:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,17,New England Patriots,,Romeo Doubs,Injured Reserve,Injured Reserve,2026-11-23T16:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,17,New England Patriots,,Romeo Doubs,Injured Reserve,Injured Reserve,2026-11-25T23:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,17,New England Patriots,,Tommy DeVito,Active,active,2026-11-24T01:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,17,New England Patriots,,Walter Rouse,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,17,New England Patriots,,Walter Rouse,Questionable,questionable,2026-11-26T03:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Alvin Kamara,Active,active,2026-11-23T04:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,18,New Orleans Saints,,Asim Richards,Doubtful,doubtful,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,18,New Orleans Saints,,Asim Richards,Questionable,questionable,2026-11-25T22:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Audric Estime,Active,active,2026-11-22T16:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Bryce Lance,Active,active,2026-11-24T03:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,CJ Donaldson,Active,active,2026-11-24T02:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Charlie Smyth,Active,active,2026-11-23T19:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Chris Olave,Active,active,2026-11-22T23:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Danny Stutsman,Active,active,2026-11-25T02:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,18,New Orleans Saints,,David Edwards,Questionable,questionable,2026-11-25T22:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Decamerion Richardson,Active,active,2026-11-22T16:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Devaughn Vele,Active,active,2026-11-23T01:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Erik McCoy,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Jaylan Ford,Active,active,2026-11-16T19:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Jonas Sanker,Active,active,2026-11-25T02:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Jordyn Tyson,Active,active,2026-11-22T23:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,18,New Orleans Saints,,Juwan Johnson,Questionable,questionable,2026-11-23T20:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,18,New Orleans Saints,,Juwan Johnson,Questionable,questionable,2026-11-25T21:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Kaden Elliss,Active,active,2026-11-24T05:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,18,New Orleans Saints,,Martin Emerson Jr.,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,18,New Orleans Saints,,Mike Reid,Active,active,2026-11-16T19:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,18,New Orleans Saints,,Martin Emerson Jr.,Questionable,questionable,2026-11-26T01:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Noah Fant,Active,active,2026-11-24T02:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Oscar Delp,Active,active,2026-11-24T17:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,18,New Orleans Saints,,Pete Werner,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,18,New Orleans Saints,,Pete Werner,Questionable,questionable,2026-11-26T01:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Taliese Fuaga,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Travis Etienne Jr.,Active,active,2026-11-22T23:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Tyler Shough,Active,active,2026-11-22T23:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,18,New Orleans Saints,,Zach Wilson,Active,active,2026-11-22T16:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,19,New York Giants,,Abdul Carter,Active,active,2026-11-25T02:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,19,New York Giants,,Arvell Reese,Active,active,2026-11-24T04:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,19,New York Giants,,Abdul Carter,Questionable,questionable,2026-11-26T01:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,19,New York Giants,,Arvell Reese,Questionable,questionable,2026-11-26T01:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Cam Skattebo,Active,active,2026-11-23T02:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,19,New York Giants,,Chris Manhertz,Active,active,2026-11-25T16:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Darius Alexander,Active,active,2026-11-23T15:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Darnell Mooney,Active,active,2026-11-24T02:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Dawuane Smoot,Active,active,2026-11-25T02:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Deonte Banks,Active,active,2026-11-25T02:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Devin Singletary,Active,active,2026-11-24T02:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Dominic Zvada,Active,active,2026-11-23T05:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,19,New York Giants,,Dru Phillips,Questionable,questionable,2026-11-26T01:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Greg Desrosiers Jr.,Active,active,2026-11-23T15:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Greg Newsome II,Injured Reserve,Injured Reserve,2026-11-25T00:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,19,New York Giants,,Isaiah Likely,Active,active,2026-11-23T02:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,19,New York Giants,,Isaiah Likely,Questionable,questionable,2026-11-25T21:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,J.C. Davis,Active,active,2026-11-23T15:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,J.J. McCarthy,Active,active,2026-11-23T02:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,19,New York Giants,,Jameis Winston,Active,active,2026-11-18T16:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Jason Pinnock,Active,active,2026-11-23T15:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Josh Sills,Active,active,2026-11-23T15:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Malachi Fields,Active,active,2026-11-24T02:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,19,New York Giants,,Malik Harrison,Active,active,2026-11-20T02:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Malik Nabers,Active,active,2026-11-23T02:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Micah McFadden,Active,active,2026-11-24T04:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Nic Jones,Active,active,2026-11-23T15:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,19,New York Giants,,Shelby Harris,Questionable,questionable,2026-11-25T21:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Theo Johnson,Active,active,2026-11-24T02:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,19,New York Giants,,Thomas Fidone II,Active,active,2026-11-23T15:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,19,New York Giants,,Tyrone Tracy Jr.,Injured Reserve,Injured Reserve,2026-11-18T20:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Adonai Mitchell,Active,active,2026-11-23T04:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Andrew Beck,Active,active,2026-11-25T16:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Braelon Allen,Active,active,2026-11-23T01:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Breece Hall,Active,active,2026-11-23T00:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Dane Belton,Active,active,2026-11-25T02:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,David Bailey,Active,active,2026-11-25T02:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,David Onyemata,Injured Reserve,Injured Reserve,2026-11-21T01:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,David Onyemata,Injured Reserve,Injured Reserve,2026-11-26T01:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Demario Davis,Active,active,2026-11-25T02:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Dylan Parham,Active,active,2026-11-22T19:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Garrett Wilson,Active,active,2026-11-23T00:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Dylan Parham,Questionable,questionable,2026-11-25T21:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Geno Smith,Active,active,2026-11-23T00:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Harrison Phillips,Active,active,2026-11-22T19:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Harrison Phillips,Questionable,questionable,2026-11-26T00:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Isaiah Davis,Active,active,2026-11-23T04:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Isaiah Williams,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Isaiah Williams,Questionable,questionable,2026-11-25T21:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Jamien Sherwood,Active,active,2026-11-24T04:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Jarvis Brownlee Jr.,Active,active,2026-11-23T15:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Jason Sanders,Active,active,2026-11-23T05:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Jelani Woods,Active,active,2026-11-23T15:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Joseph Ossai,Active,active,2026-11-22T19:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Jeremy Ruckert,Active,active,2026-11-25T16:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Joseph Ossai,Questionable,questionable,2026-11-25T21:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Kenyon Sadiq,Active,active,2026-11-23T04:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Mason Taylor,Active,active,2026-11-23T04:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Nate Lynn,Active,active,2026-11-23T15:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Omar Cooper Jr.,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Omar Cooper Jr.,Questionable,questionable,2026-11-25T17:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,20,New York Jets,,Sterling Shepard,Active,active,2026-11-24T01:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Tim Patrick,Active,active,2026-11-16T19:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,20,New York Jets,,Trevin Wallace,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,T'Vondre Sweat,Injured Reserve,Injured Reserve,2026-11-25T22:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,20,New York Jets,,Trevin Wallace,Active,active,2026-11-26T01:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Ajani Cornelius,Active,active,2026-11-23T15:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,21,Philadelphia Eagles,,Arnold Ebiketie,Questionable,questionable,2026-11-25T02:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,21,Philadelphia Eagles,,Arnold Ebiketie,Out,out,2026-11-25T22:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Byron Young,Active,active,2026-11-24T03:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Cole Payton,Active,active,2026-11-22T16:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Dallas Goedert,Active,active,2026-11-24T23:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -734,24 +734,24 @@ nfl,21,Philadelphia Eagles,,Jalen Carter,Active,active,2026-11-22T16:37Z,https:/
 nfl,21,Philadelphia Eagles,,Jaydon Blue,Active,active,2026-11-24T02:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Jeremiah Trotter Jr.,Active,active,2026-11-24T03:35Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Joe Milton,Active,active,2026-11-23T01:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,21,Philadelphia Eagles,,Jonathan Jones,Questionable,questionable,2026-11-24T00:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,21,Philadelphia Eagles,,Jonathan Jones,Out,out,2026-11-25T22:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Mac McWilliams,Active,active,2026-11-23T15:49Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Makai Lemon,Active,active,2026-11-23T01:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Michael Carter II,Active,active,2026-11-21T01:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Nolan Smith Jr.,Active,active,2026-11-21T00:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,21,Philadelphia Eagles,,Quinyon Mitchell,Questionable,questionable,2026-11-25T01:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,21,Philadelphia Eagles,,Quinyon Mitchell,Active,active,2026-11-25T22:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Saquon Barkley,Active,active,2026-11-24T23:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,21,Philadelphia Eagles,,Smael Mondon Jr.,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,21,Philadelphia Eagles,,Smael Mondon Jr.,Active,active,2026-11-26T03:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Tanner McKee,Active,active,2026-11-25T00:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,21,Philadelphia Eagles,,Will Shipley,Questionable,questionable,2026-11-25T01:04Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,21,Philadelphia Eagles,,Will Shipley,Active,active,2026-11-25T17:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,21,Philadelphia Eagles,,Zack Baun,Injured Reserve,Injured Reserve,2026-11-22T00:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,23,Pittsburgh Steelers,,Aaron Rodgers,Active,active,2026-11-25T04:21Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Alex Highsmith,Doubtful,doubtful,2026-11-23T20:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Ben Skowronek,Questionable,questionable,2026-11-24T22:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Chris Boswell,Active,active,2026-11-23T05:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,23,Pittsburgh Steelers,,Cole Holcomb,Questionable,questionable,2026-11-25T20:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,DK Metcalf,Active,active,2026-11-23T21:08Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Darnell Washington,Active,active,2026-11-23T04:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,23,Pittsburgh Steelers,,DeShon Elliott,Active,active,2026-11-22T16:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,23,Pittsburgh Steelers,,DeShon Elliott,Questionable,questionable,2026-11-26T00:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Drew Allar,Active,active,2026-11-23T15:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Eli Heidenreich,Active,active,2026-11-23T15:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Gabriel Rubio,Active,active,2026-11-23T15:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -760,9 +760,9 @@ nfl,23,Pittsburgh Steelers,,Germie Bernard,Active,active,2026-11-24T02:08Z,https
 nfl,23,Pittsburgh Steelers,,Jalen Ramsey,Active,active,2026-11-25T01:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Jaylen Warren,Active,active,2026-11-22T23:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Kaden Wetjen,Active,active,2026-11-22T17:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,23,Pittsburgh Steelers,,Mason Rudolph,Active,active,2026-11-25T04:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,23,Pittsburgh Steelers,,Mason Rudolph,Active,active,2026-11-25T21:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Max Hurleman,Active,active,2026-11-24T01:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,23,Pittsburgh Steelers,,Michael Pittman Jr.,Injured Reserve,Injured Reserve,2026-11-24T21:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,23,Pittsburgh Steelers,,Michael Pittman Jr.,Injured Reserve,Injured Reserve,2026-11-25T20:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Nick Herbig,Questionable,questionable,2026-11-24T22:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Pat Freiermuth,Active,active,2026-11-23T04:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Patrick Queen,Active,active,2026-11-25T01:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -770,115 +770,115 @@ nfl,23,Pittsburgh Steelers,,Payton Wilson,Active,active,2026-11-24T04:31Z,https:
 nfl,23,Pittsburgh Steelers,,Rico Dowdle,Active,active,2026-11-22T23:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Roman Wilson,Active,active,2026-11-24T02:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,23,Pittsburgh Steelers,,Sean Murphy-Bunting,Active,active,2026-11-23T15:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Brock Purdy,Active,active,2026-11-23T04:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Christian McCaffrey,Active,active,2026-11-23T04:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Colton McKivitz,Out,out,2026-11-24T00:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Deebo Samuel Sr.,Active,active,2026-11-23T05:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Demarcus Robinson,Active,active,2026-11-23T00:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Deommodore Lenoir,Questionable,questionable,2026-11-23T19:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Dre Greenlaw,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Austen Pleasants,Injured Reserve,Injured Reserve,2026-11-26T03:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Brayden Willis,Active,active,2026-11-25T16:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Brock Purdy,Questionable,questionable,2026-11-25T19:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Carver Willis,Questionable,questionable,2026-11-26T02:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Colton McKivitz,Injured Reserve,Injured Reserve,2026-11-26T03:03Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,De'Zhaun Stribling,Injured Reserve,Injured Reserve,2026-11-25T20:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Deommodore Lenoir,Questionable,questionable,2026-11-26T02:42Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Dre Greenlaw,Questionable,questionable,2026-11-26T02:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Eddy Pineiro,Active,active,2026-11-24T00:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Enrique Cruz Jr.,Active,active,2026-11-23T15:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Fred Warner,Active,active,2026-11-24T04:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,George Kittle,Active,active,2026-11-23T04:53Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Jacob Cowing,Active,active,2026-11-24T03:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Ji'Ayir Brown,Active,active,2026-11-25T02:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Jordan James,Active,active,2026-11-24T03:09Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Jordan Watkins,Active,active,2026-11-24T02:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Kaelon Black,Active,active,2026-11-23T05:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Jordan Watkins,Questionable,questionable,2026-11-26T02:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Keenan Allen,Active,active,2026-11-23T05:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Khalid Kareem,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Khalid Kareem,Active,active,2026-11-26T02:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Kurtis Rourke,Active,active,2026-11-23T15:50Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,25,San Francisco 49ers,,Kyle Juszczyk,Active,active,2026-11-24T02:40Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Luke Gifford,Active,active,2026-11-23T00:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Mac Jones,Active,active,2026-11-23T00:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Mike Evans,Active,active,2026-11-23T04:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Nate Hobbs,Injured Reserve,Injured Reserve,2026-11-22T00:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,25,San Francisco 49ers,,Upton Stout,Active,active,2026-11-23T00:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Luke Farrell,Active,active,2026-11-25T16:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Mike Evans,Questionable,questionable,2026-11-25T20:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Nate Hobbs,Active,active,2026-11-25T22:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Sam Okuayinonu,Injured Reserve,Injured Reserve,2026-11-25T23:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Siran Neal,Questionable,questionable,2026-11-26T02:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,25,San Francisco 49ers,,Upton Stout,Questionable,questionable,2026-11-26T02:33Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,AJ Barner,Active,active,2026-11-16T05:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Abraham Lucas,Questionable,questionable,2026-11-15T22:03Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Anthony Bradford,Active,active,2026-11-13T22:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Abraham Lucas,Out,out,2026-11-26T00:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Anthony Bradford,Questionable,questionable,2026-11-26T00:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Brandon Pili,Active,active,2026-11-14T02:30Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Charles Cross,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Cooper Kupp,Active,active,2026-11-17T02:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Derick Hall,Active,active,2026-11-14T00:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,DeMarcus Lawrence,Questionable,questionable,2026-11-26T00:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Deven Eastern,Active,active,2026-11-16T19:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Devon Witherspoon,Active,active,2026-11-19T03:07Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Drew Lock,Active,active,2026-11-16T02:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Drew Lock,Questionable,questionable,2026-11-26T00:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Emanuel Wilson,Active,active,2026-11-15T19:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Ernest Jones IV,Active,active,2026-11-19T03:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Ernest Jones IV,Questionable,questionable,2026-11-26T02:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,George Holani,Injured Reserve,Injured Reserve,2026-11-23T23:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Jadarian Price,Active,active,2026-11-16T01:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Jalen Milroe,Questionable,questionable,2026-11-26T00:26Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Jarran Reed,Questionable,questionable,2026-11-15T22:20Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Jason Myers,Active,active,2026-11-17T04:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Jaxon Smith-Njigba,Active,active,2026-11-16T01:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Jaxon Smith-Njigba,Questionable,questionable,2026-11-25T23:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Leonard Williams,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Patrick O'Connell,Active,active,2026-11-13T22:43Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Quenton Nelson,Doubtful,doubtful,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Nick Kallerup,Questionable,questionable,2026-11-26T00:28Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Quenton Nelson,Out,out,2026-11-26T00:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Rashid Shaheed,Active,active,2026-11-16T05:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Sam Darnold,Questionable,questionable,2026-11-24T15:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,26,Seattle Seahawks,,Sam Darnold,Active,active,2026-11-25T23:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Tory Horton,Active,active,2026-11-17T02:47Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,26,Seattle Seahawks,,Uchenna Nwosu,Active,active,2026-11-14T00:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,26,Seattle Seahawks,,Zach Charbonnet,Active,active,2026-11-16T01:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Antoine Winfield Jr.,Questionable,questionable,2026-11-24T12:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Ayden Garnes,Active,active,2026-11-23T15:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Baker Mayfield,Active,active,2026-11-23T00:01Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,27,Tampa Bay Buccaneers,,Bauer Sharp,Active,active,2026-11-25T17:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Benjamin Morrison,Questionable,questionable,2026-11-24T00:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Billy Schrauth,Active,active,2026-11-23T15:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Bucky Irving,Active,active,2026-11-22T23:02Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Cade Otton,Active,active,2026-11-23T04:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Chase McLaughlin,Active,active,2026-11-24T00:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Chris Godwin Jr.,Active,active,2026-11-23T02:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,27,Tampa Bay Buccaneers,,Christian Rozeboom,Injured Reserve,Injured Reserve,2026-11-26T02:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,DeMonte Capehart,Active,active,2026-11-23T15:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,27,Tampa Bay Buccaneers,,Easton Stick,Active,active,2026-11-22T17:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Elijah Simmons,Questionable,questionable,2026-11-24T00:56Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Emeka Egbuka,Active,active,2026-11-23T00:37Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Jacob Parrish,Questionable,questionable,2026-11-23T20:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,27,Tampa Bay Buccaneers,,Jalon Daniels,Active,active,2026-11-22T17:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,27,Tampa Bay Buccaneers,,Josh Hayes,Injured Reserve,Injured Reserve,2026-11-21T01:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,27,Tampa Bay Buccaneers,,Jalen McMillan,Injured Reserve,Injured Reserve,2026-11-25T15:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Josiah Trotter,Active,active,2026-11-25T02:46Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Kenny Gainwell,Active,active,2026-11-23T00:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,27,Tampa Bay Buccaneers,,Ko Kieft,Active,active,2026-11-25T17:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,27,Tampa Bay Buccaneers,,Payne Durham,Active,active,2026-11-25T17:15Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Sean Tucker,Active,active,2026-11-23T04:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Ted Hurst III,Active,active,2026-11-23T01:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Tez Johnson,Active,active,2026-11-24T02:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Trevor Keegan,Active,active,2026-11-23T15:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,27,Tampa Bay Buccaneers,,Tykee Smith,Active,active,2026-11-25T02:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,27,Tampa Bay Buccaneers,,Yaya Diaby,Active,active,2026-11-22T17:22Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,27,Tampa Bay Buccaneers,,Zyon McCollum,Active,active,2026-11-12T04:05Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,10,Tennessee Titans,,Anthony Hill Jr.,Active,active,2026-11-22T16:48Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Brandon Crenshaw-Dickson,Active,active,2026-11-23T15:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Calvin Ridley,Active,active,2026-11-23T01:41Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Cam Ward,Active,active,2026-11-22T23:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Carnell Tate,Active,active,2026-11-22T23:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Cedric Gray,Active,active,2026-11-25T02:59Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Chimere Dike,Active,active,2026-11-23T02:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,10,Tennessee Titans,,Cor'Dale Flott,Questionable,questionable,2026-11-22T19:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,10,Tennessee Titans,,Cor'Dale Flott,Questionable,questionable,2026-11-26T01:44Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,10,Tennessee Titans,,Corey Thornton,Active,active,2026-11-25T02:11Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Dan Moore Jr.,Questionable,questionable,2026-11-22T20:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Daniel Bellinger,Active,active,2026-11-24T03:23Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,10,Tennessee Titans,,David Martin-Robinson,Active,active,2026-11-25T17:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Elic Ayomanor,Active,active,2026-11-24T00:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Gunnar Helm,Active,active,2026-11-23T03:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Jackie Marshall,Active,active,2026-11-23T15:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Jaylon Jones,Active,active,2026-11-23T15:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Joey Slye,Active,active,2026-11-23T05:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,10,Tennessee Titans,,John Franklin-Myers,Questionable,questionable,2026-11-26T01:39Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Joshua Williams,Active,active,2026-11-25T02:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Kevin Winston Jr.,Active,active,2026-11-25T03:00Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,10,Tennessee Titans,,Micah Robinson,Active,active,2026-11-22T16:36Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,10,Tennessee Titans,,Kylen Granson,Active,active,2026-11-25T17:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Michael Carter,Active,active,2026-11-24T01:19Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Mohamoud Diabate,Active,active,2026-11-23T15:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,10,Tennessee Titans,,Nicholas Singleton,Active,active,2026-11-22T16:55Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,10,Tennessee Titans,,Terrell Burgess,Questionable,questionable,2026-11-22T20:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,10,Tennessee Titans,,Tony Adams,Questionable,questionable,2026-11-22T18:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,10,Tennessee Titans,,Tony Adams,Active,active,2026-11-26T01:34Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Tony Pollard,Active,active,2026-11-22T22:32Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,10,Tennessee Titans,,Xavier Restrepo,Active,active,2026-11-24T03:17Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,28,Washington Commanders,,Amik Robertson,Questionable,questionable,2026-11-24T00:16Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,28,Washington Commanders,,Amik Robertson,Questionable,questionable,2026-11-26T02:29Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Antonio Williams,Active,active,2026-11-24T05:10Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Athan Kaliakmanis,Active,active,2026-11-24T12:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Austin Ekeler,Active,active,2026-11-25T00:18Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Ben Sinnott,Active,active,2026-11-25T01:31Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,28,Washington Commanders,,Charles Omenihu,Questionable,questionable,2026-11-26T00:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Chig Okonkwo,Active,active,2026-11-24T05:14Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Colson Yankoff,Active,active,2026-11-20T00:51Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Drew Stevens,Active,active,2026-11-25T01:12Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,28,Washington Commanders,,Frankie Luvu,Active,active,2026-11-14T02:54Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Jacory Croskey-Merritt,Active,active,2026-11-24T05:06Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Jayden Daniels,Active,active,2026-11-24T04:45Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Jeremy Reaves,Active,active,2026-11-14T02:57Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
@@ -891,7 +891,7 @@ nfl,28,Washington Commanders,,Quan Martin,Active,active,2026-11-22T00:28Z,https:
 nfl,28,Washington Commanders,,Rachaad White,Active,active,2026-11-25T00:13Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Ricky Barber,Active,active,2026-11-24T12:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Robert Henry Jr.,Active,active,2026-11-24T12:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,28,Washington Commanders,,Stefon Diggs,Active,active,2026-11-24T04:52Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,28,Washington Commanders,,Stefon Diggs,Questionable,questionable,2026-11-25T20:25Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Tanoa Togiai,Active,active,2026-11-24T12:38Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
-nfl,28,Washington Commanders,,Treylon Burks,Active,active,2026-11-25T00:24Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+nfl,28,Washington Commanders,,Treylon Burks,Questionable,questionable,2026-11-25T22:58Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
 nfl,28,Washington Commanders,,Van Jefferson,Active,active,2026-11-25T01:27Z,https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
