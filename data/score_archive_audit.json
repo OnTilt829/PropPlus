@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T16:18:57.752823+00:00",
+  "generated_at": "2026-11-28T17:19:09.788454+00:00",
   "grace_hours": 36,
   "sports": {
     "cfb": {
@@ -10,7 +10,15 @@
         "FINAL": 304,
         "SCHEDULED": 70
       },
-      "issues": {}
+      "issues": {
+        "stale_scheduled_games": {
+          "count": 2,
+          "examples": [
+            "line 292: Florida Atlantic Owls at East Carolina Pirates (2026-11-27T05:00Z)",
+            "line 293: Tulane Green Wave at South Florida Bulls (2026-11-27T05:00Z)"
+          ]
+        }
+      }
     },
     "nfl": {
       "sport": "nfl",
